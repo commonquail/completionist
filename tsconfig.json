@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.promise", // For AVA-TS.
+      "scripthost"
+    ],
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false, // Very annoying.
+    "noEmitOnError": true,
+    "newLine": "LF"
+  },
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "typings/**/*.d.ts"
+  ]
+}

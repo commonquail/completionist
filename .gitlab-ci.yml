@@ -1,0 +1,23 @@
+# ex: et sw=2 ts=2:
+image: node:9.3.0
+
+before_script:
+  - yarn install
+
+test:
+  stage: test
+  script:
+    - yarn tslint
+    - yarn test
+      # Ensure license information reflects latest lock file
+    - test "$(git log -1 --format=%ct -- NOTICE.txt)" -ge "$(git log -1 --format=%ct -- yarn.lock)" 
+
+pages:
+  stage: deploy
+  only:
+    - master
+  script:
+    - yarn production
+  artifacts:
+    paths:
+      - public

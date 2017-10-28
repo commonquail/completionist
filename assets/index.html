@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Guild Wars 2 Daily Completionist</title>
+        <style>
+body {
+  font-family: "Helvetica Neue", "Calibri Light", Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+.daily-achievement > img {
+  vertical-align: middle;
+  height: 2em;
+}
+.daily-achievement {
+  padding-left: .2rem;
+  padding-right: .5rem;
+  cursor: pointer;
+}
+.favorite {
+  background-color: aqua;
+}
+.fractals > div > div:nth-child(-n+9) {
+  display: none;
+}
+.daily-achievement:hover {
+  background-color: antiquewhite;
+}
+.fractals .t4,
+.fractals .recommended {
+    display: inherit;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .5rem;
+  grid-auto-rows: minmax(200px, auto);
+}
+@media (min-width: 48rem) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fractals {
+    grid-column-end: span 2;
+  }
+}
+@media (min-width: 80rem) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 100rem) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+footer {
+  margin-top: 5rem;
+  color: #555;
+  font-size: .8rem;
+}
+</style>
+    </head>
+    <body>
+        <div class="daily">
+            <div class="header"><h1>Daily Completionist</h1></div>
+            <div class="grid">
+                <div class="pve"><h2>PvE</h2></div>
+                <div class="wvw"><h2>WvW</h2></div>
+                <div class="fractals"><h2>Fractals</h2></div>
+            </div>
+        </div>
+        <footer>
+            <h3>About</h3>
+            <p>
+              You can click on achievements to highlight them across browser
+              sessions. Information is only saved within your browser's
+              local storage.
+            </p>
+            <p>
+              This software is <a href="https://gitlab.com/mkjeldsen/completionist">open source</a>.
+            </p>
+        </footer>
+    </body>
+</html>
