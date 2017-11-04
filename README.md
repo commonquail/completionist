@@ -34,25 +34,13 @@ distribution inside `public/`.
 
 ### Development
 
-Run `yarn tslint` lint and `yarn test` to execute automatic tests.
+Run `yarn tslint` to lint and `yarn test` to execute automatic tests.
 
-Run `yarn build` to build a development distribution inside `public/` and open
-`public/index.html` in a browser either via file protocol:
+Run `yarn build` to build a development distribution inside `public/`.
 
-```sh
-$ xdg-open public/index.html
-```
-
-or an ad-hoc Web server:
-
-```sh
-# in a separate, dedicated terminal
-$ python3 -m http.server
-```
-
-```sh
-$ xdg-open http://localhost:8000/public
-```
+Run `yarn serve` in a separate, dedicated terminal to launch a Web server that
+serves the `public/` directory on the printed address, along with canned GW2 API
+responses for development purposes.
 
 Run `yarn add --exact --dev <package>` to install new dependencies, followed
 by `./update-licenses` to regenerate license information.
@@ -67,6 +55,8 @@ application [[license], [notice]] but this approach both greatly eases the
 burden of maintenance and avoids the recursive license duplication that would
 occur if software derived from this distribution were to generate license
 information in the same way.
+
+The `samples/` directory is © 2015 ArenaNet, LLC. All rights reserved.
 
 Terms of use further require the following notice [[gw2-legal]]:
 

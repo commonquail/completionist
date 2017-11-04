@@ -1,11 +1,14 @@
 import axios from "axios";
 import { AxiosError, AxiosPromise, AxiosResponse } from "axios";
+import * as env from "./env";
 import * as fractal from "./fractal";
 import * as gw2 from "./gw2";
 
+const baseUri = env.production ? "https://api.guildwars2.com/v2" : "http://localhost:3000/v2";
+
 export function getAchievements(ids: ReadonlyArray<{ readonly id: number }>):
     AxiosPromise<ReadonlyArray<gw2.Achievement>> {
-    return axios.get("https://api.guildwars2.com/v2/achievements", {
+    return axios.get(baseUri + "/achievements", {
         params: {
             ids: ids.map(gw2.id).join(","),
             lang: "en",
@@ -279,7 +282,7 @@ export function main() {
     };
 
     document.addEventListener("click", toggleFavorite);
-    axios.get<gw2.Daily>("https://api.guildwars2.com/v2/achievements/daily")
+    axios.get<gw2.Daily>(baseUri + "/achievements/daily")
         .then(axiosData)
         .then(getFunDailies)
         .catch(error);

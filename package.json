@@ -8,6 +8,7 @@
     "tslint": "tslint --project tsconfig.json",
     "build": "yarn clean && rollup --config",
     "production": "yarn build --environment NODE_ENV:production",
+    "serve": "node server.js",
     "test": "ava-ts"
   },
   "author": "Mikkel Kjeldsen",
@@ -19,6 +20,7 @@
     "ava-ts": "0.24.2",
     "axios": "0.18.0",
     "jsdom": "11.5.1",
+    "json-server": "0.12.1",
     "rollup": "0.57.1",
     "rollup-plugin-commonjs": "9.1.0",
     "rollup-plugin-fill-html": "1.1.0",
