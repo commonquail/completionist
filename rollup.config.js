@@ -1,4 +1,5 @@
 import commonjs from "rollup-plugin-commonjs";
+import copy from "rollup-plugin-cpy";
 import html from "rollup-plugin-fill-html";
 import replace from "rollup-plugin-replace";
 import resolve from "rollup-plugin-node-resolve";
@@ -19,6 +20,12 @@ const plugins = [
     html({
         template: "assets/index.html",
     }),
+    copy({
+        files: [
+            './assets/favicon.ico',
+        ],
+        dest: "public",
+    })
 ];
 
 if (env === "production") {
