@@ -18,6 +18,7 @@ pages:
     - master
   script:
     - yarn production
+    - gzip --keep public/*
   artifacts:
     paths:
       - public
