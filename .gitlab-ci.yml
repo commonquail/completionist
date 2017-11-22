@@ -22,6 +22,3 @@ pages:
   artifacts:
     paths:
       - public
-  cache:
-    paths:
-      - node_modules
