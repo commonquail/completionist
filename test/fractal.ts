@@ -53,7 +53,7 @@ test("Fix Daily Recommended Fractal by appending fractal name", (t) => {
     const someRecommendedDailyFractal = helper.achievementWithName("41");
     const fixed = fractal.fixRecommendedName(someRecommendedDailyFractal);
 
-    t.is(fixed.name, "41 (Swampland)");
+    t.is(fixed.name, "41 (Twilight Oasis)");
 });
 
 test("Name of Recommended Fractal is inferred from first set of consecutive integers", (t) => {
