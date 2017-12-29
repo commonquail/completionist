@@ -2,6 +2,7 @@ import test from "ava";
 import { JSDOM } from "jsdom";
 import * as lib from "../src/completionist";
 import * as helper from "./helpers/helper";
+import mkmacro from "./helpers/mkmacro";
 
 const jsdom = new JSDOM(``, {});
 function el(): HTMLElement {
@@ -86,32 +87,42 @@ test("icon() returns icon property value for truthy icon property", (t) => {
     t.regex(lib.icon({ icon: "foo" }), /foo/);
 });
 
-test("cleanUpFractalDailies() returns empty list on empty list input", (t) => {
-    const clean = lib.cleanUpFractalDailies([]);
+test("cleanUpDailyNames() returns empty list on empty list input", (t) => {
+    const clean = lib.cleanUpDailyNames([]);
     t.deepEqual(clean, []);
 });
 
-test("cleanUpFractalDailies() leaves names of regular achievements alone", (t) => {
+test("cleanUpDailyNames() leaves names of regular achievements alone", (t) => {
     const someRegularDaily = helper.achievementWithName("42");
     t.is(someRegularDaily.name, "42", "Precondition");
 
-    const clean = lib.cleanUpFractalDailies([someRegularDaily]);
+    const clean = lib.cleanUpDailyNames([someRegularDaily]);
 
     t.is(clean[0].name, someRegularDaily.name, "Regular achievement should be unchanged");
 });
 
-test("cleanUpFractalDailies() fixes Recommended Fractal names", (t) => {
+test("cleanUpDailyNames() fixes Recommended Fractal names", (t) => {
     const someRegularDaily = helper.achievementWithName("27");
     const someRecommendedFractal = helper.someRecommendedFractal("27");
     t.notRegex(someRecommendedFractal.name, /Snowblind/, "Precondition");
 
-    const clean = lib.cleanUpFractalDailies([
+    const clean = lib.cleanUpDailyNames([
         someRecommendedFractal,
         someRegularDaily,
     ]);
 
     t.regex(clean[0].name, /Snowblind/, "Recommended Fractal name should be cleaned up");
     t.not(clean[1].name, clean[0].name, "Regular achievement should be left alone");
+});
+
+test("cleanUpDailyNames() fixes Daily Activity names", (t) => {
+    const activityPattern = /Keg|Crab|Sprint|Survival/;
+    const someDailyActivity = helper.achievementWithId(1939);
+    t.notRegex(someDailyActivity.name, activityPattern, "Precondition");
+
+    const clean = lib.cleanUpDailyNames([someDailyActivity]);
+
+    t.regex(clean[0].name, activityPattern, "Daily Activity name should be cleaned up");
 });
 
 test("fullyLevelled() returns true for max level 80", (t) => {
@@ -140,4 +151,36 @@ test("fullyLevelled() returns false for max level other than 80", (t) => {
 
     const res = lib.fullyLevelled(neg);
     t.false(res);
+});
+
+test("Achievement 1939 is Daily Activity Participation", (t) => {
+    t.true(lib.isDailyActivityParticipation(helper.achievementWithId(1939)));
+});
+
+test("Other achievements are not Daily Activity Participation", (t) => {
+    t.false(lib.isDailyActivityParticipation(helper.achievementWithId(1938)));
+    t.false(lib.isDailyActivityParticipation(helper.achievementWithId(1940)));
+});
+
+const dailyActivity = mkmacro((t, input: string, expected: RegExp) => {
+    const dayOfWeek = new Date(input);
+
+    const activity = lib.fixDailyActivityName(
+        helper.achievementWithId(1939),
+        dayOfWeek);
+
+    t.regex(activity.name, expected);
+});
+
+test("Daily Activity, Sunday, is Keg Brawl",            dailyActivity, "2018-01-07", /Keg/);
+test("Daily Activity, Monday, is Crab Toss",            dailyActivity, "2018-01-08", /Crab/);
+test("Daily Activity, Tuesday, is Sanctum Sprint",      dailyActivity, "2018-01-09", /Sanctum/);
+test("Daily Activity, Tuesday, is not Keg Brawl", (t) => {
+    const someTuesday = new Date("2018-01-09");
+
+    const activity = lib.fixDailyActivityName(
+        helper.achievementWithId(1939),
+        someTuesday);
+
+    t.notRegex(activity.name, /Keg/);
 });
