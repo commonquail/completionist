@@ -30,7 +30,7 @@ export function rewardId(item: ItemId): gw2.Reward {
     };
 }
 
-export function achievementWithName(n: string) {
+export function achievementWithName(n: string): gw2.Achievement {
     return {
         description: "foo",
         flags: [],
