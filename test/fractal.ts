@@ -19,6 +19,10 @@ test("Achievement with rewards Fractal Master's Chest and others is not T4", (t)
         helper.rewardId(helper.ItemId.FractalExpertChest))));
 });
 
+test("Achievement with no rewards is not T4", (t) => {
+    t.false(fractal.isT4(helper.achievementWithRewards()));
+});
+
 test("Achievement with reward Fractal Initiate's Research Chest is Recommended", (t) => {
     t.true(fractal.isRecommended(helper.achievementWithRewards(
         helper.rewardId(helper.ItemId.FractalInitiateResearchChest))));
