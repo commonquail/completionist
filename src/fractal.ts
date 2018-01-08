@@ -11,7 +11,7 @@ const enum FractalChest {
 }
 
 export function isT4(achievement: Achievement): boolean {
-    if (achievement.rewards) {
+    if (achievement.rewards && achievement.rewards.length) {
         return achievement.rewards.every((r) => r.id === FractalChest.Master);
     }
     return false;
