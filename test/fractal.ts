@@ -49,7 +49,7 @@ test("Achievement with rewards Fractal Research Chest and others is not Recommen
         helper.rewardId(helper.ItemId.FractalMasterChest))));
 });
 
-test("Achievement with reward Fractal Initiate's Research Chest is Recommended", (t) => {
+test("Achievement with no rewards is not Recommended", (t) => {
     t.false(fractal.isRecommended(helper.achievementWithRewards()));
 });
 
