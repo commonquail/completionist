@@ -72,3 +72,24 @@ export interface Achievement {
 export function id(v: { readonly id: number }): number {
     return v.id;
 }
+
+export const enum Activity {
+    CrabToss = "Crab Toss",
+    KegBrawl = "Keg Brawl",
+    SanctumSprint = "Sanctum Sprint",
+    SouthsunSurvival = "Southsun Survival",
+}
+
+const activityCycle = [
+    Activity.KegBrawl,
+    Activity.CrabToss,
+    Activity.SanctumSprint,
+    Activity.SouthsunSurvival,
+    Activity.CrabToss,
+    Activity.SanctumSprint,
+    Activity.SouthsunSurvival,
+];
+
+export function activityFor(date: Date): Activity {
+    return activityCycle[date.getUTCDay()];
+}

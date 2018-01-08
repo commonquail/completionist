@@ -30,6 +30,20 @@ export function rewardId(item: ItemId): gw2.Reward {
     };
 }
 
+export function achievementWithId(theId: number): gw2.Achievement {
+    return {
+        description: "foo",
+        flags: [],
+        id: theId,
+        locked_text: "",
+        name: "foobar",
+        requirement: "",
+        rewards: [],
+        tiers: [],
+        type: gw2.AchievementType.Default,
+    };
+}
+
 export function achievementWithName(n: string): gw2.Achievement {
     return {
         description: "foo",

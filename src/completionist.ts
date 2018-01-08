@@ -24,7 +24,7 @@ export function getFunDailies(dailies: gw2.Daily): void {
 
     getAchievements(achievements)
         .then(axiosData)
-        .then(cleanUpFractalDailies)
+        .then(cleanUpDailyNames)
         .then(populateDailies)
         .then(arrangeFractalDailies)
         .catch(error);
@@ -73,7 +73,7 @@ function axiosData<T>(response: AxiosResponse<T>): T {
     return response.data;
 }
 
-export function cleanUpFractalDailies(
+export function cleanUpDailyNames(
     data: ReadonlyArray<gw2.Achievement>,
 ): ReadonlyArray<gw2.Achievement> {
     const dailies = [... data];
@@ -82,10 +82,40 @@ export function cleanUpFractalDailies(
         const a = dailies[index];
         if (fractal.isRecommended(a)) {
             dailies[index] = fractal.fixRecommendedName(a);
+        } else if (isDailyActivityParticipation(a)) {
+            const today = new Date();
+            dailies[index] = fixDailyActivityName(a, today);
         }
     }
 
     return dailies;
+}
+
+export function isDailyActivityParticipation(
+    a: Readonly<gw2.Achievement>,
+): boolean {
+    return a.id === 1939;
+}
+
+export function fixDailyActivityName(
+    a: Readonly<gw2.Achievement>,
+    date: Date,
+): gw2.Achievement {
+    return {
+        bits: a.bits,
+        description: a.description,
+        flags: a.flags,
+        icon: a.icon,
+        id: a.id,
+        locked_text: a.locked_text,
+        name: `${a.name} (${gw2.activityFor(date)})`,
+        point_cap: a.point_cap,
+        prerequisites: a.prerequisites,
+        requirement: a.requirement,
+        rewards: a.rewards,
+        tiers: a.tiers,
+        type: a.type,
+    };
 }
 
 export function icon(a: { readonly icon?: string }): string {
