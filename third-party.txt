@@ -176,7 +176,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 -----
 
-The following software may be included in this product: acorn. A copy of the source code may be downloaded from https://github.com/ternjs/acorn.git. This software contains the following license and notice below:
+The following software may be included in this product: acorn. A copy of the source code may be downloaded from https://github.com/acornjs/acorn.git. This software contains the following license and notice below:
 
 Copyright (C) 2012-2017 by various contributors (see AUTHORS)
 
@@ -268,7 +268,7 @@ THIS SOFTWARE.
 
 -----
 
-The following software may be included in this product: ansi-escapes, ansi-regex, ansi-styles, ava, ava-init, ava-ts, binary-extensions, boxen, chalk, cli-spinners, cli-truncate, execa, get-port, global-dirs, indent-string, irregular-plurals, is-installed-globally, is-observable, make-dir, parse-json, pify, pkg-conf, pretty-ms, sort-keys, string-width, strip-ansi, supports-color, widest-line, write-json-file, write-pkg. A copy of the source code may be downloaded from https://github.com/sindresorhus/ansi-escapes.git (ansi-escapes), https://github.com/chalk/ansi-regex.git (ansi-regex), https://github.com/chalk/ansi-styles.git (ansi-styles), https://github.com/avajs/ava.git (ava), https://github.com/avajs/ava-init.git (ava-init), https://github.com/andywer/ava-ts.git (ava-ts), https://github.com/sindresorhus/binary-extensions.git (binary-extensions), https://github.com/sindresorhus/boxen.git (boxen), https://github.com/chalk/chalk.git (chalk), https://github.com/sindresorhus/cli-spinners.git (cli-spinners), https://github.com/sindresorhus/cli-truncate.git (cli-truncate), https://github.com/sindresorhus/execa.git (execa), https://github.com/sindresorhus/get-port.git (get-port), https://github.com/sindresorhus/global-dirs.git (global-dirs), https://github.com/sindresorhus/indent-string.git (indent-string), https://github.com/sindresorhus/irregular-plurals.git (irregular-plurals), https://github.com/sindresorhus/is-installed-globally.git (is-installed-globally), https://github.com/sindresorhus/is-observable.git (is-observable), https://github.com/sindresorhus/make-dir.git (make-dir), https://github.com/sindresorhus/parse-json.git (parse-json), https://github.com/sindresorhus/pify.git (pify), https://github.com/sindresorhus/pkg-conf.git (pkg-conf), https://github.com/sindresorhus/pretty-ms.git (pretty-ms), https://github.com/sindresorhus/sort-keys.git (sort-keys), https://github.com/sindresorhus/string-width.git (string-width), https://github.com/chalk/strip-ansi.git (strip-ansi), https://github.com/chalk/supports-color.git (supports-color), https://github.com/sindresorhus/widest-line.git (widest-line), https://github.com/sindresorhus/write-json-file.git (write-json-file), https://github.com/sindresorhus/write-pkg.git (write-pkg). This software contains the following license and notice below:
+The following software may be included in this product: ansi-escapes, ansi-regex, ansi-styles, ava, ava-init, ava-ts, binary-extensions, boxen, chalk, cli-spinners, cli-truncate, execa, get-port, global-dirs, has-flag, indent-string, irregular-plurals, is-installed-globally, is-observable, make-dir, parse-json, pify, pkg-conf, pretty-ms, sort-keys, string-width, strip-ansi, supports-color, widest-line, write-json-file, write-pkg. A copy of the source code may be downloaded from https://github.com/sindresorhus/ansi-escapes.git (ansi-escapes), https://github.com/chalk/ansi-regex.git (ansi-regex), https://github.com/chalk/ansi-styles.git (ansi-styles), https://github.com/avajs/ava.git (ava), https://github.com/avajs/ava-init.git (ava-init), https://github.com/andywer/ava-ts.git (ava-ts), https://github.com/sindresorhus/binary-extensions.git (binary-extensions), https://github.com/sindresorhus/boxen.git (boxen), https://github.com/chalk/chalk.git (chalk), https://github.com/sindresorhus/cli-spinners.git (cli-spinners), https://github.com/sindresorhus/cli-truncate.git (cli-truncate), https://github.com/sindresorhus/execa.git (execa), https://github.com/sindresorhus/get-port.git (get-port), https://github.com/sindresorhus/global-dirs.git (global-dirs), https://github.com/sindresorhus/has-flag.git (has-flag), https://github.com/sindresorhus/indent-string.git (indent-string), https://github.com/sindresorhus/irregular-plurals.git (irregular-plurals), https://github.com/sindresorhus/is-installed-globally.git (is-installed-globally), https://github.com/sindresorhus/is-observable.git (is-observable), https://github.com/sindresorhus/make-dir.git (make-dir), https://github.com/sindresorhus/parse-json.git (parse-json), https://github.com/sindresorhus/pify.git (pify), https://github.com/sindresorhus/pkg-conf.git (pkg-conf), https://github.com/sindresorhus/pretty-ms.git (pretty-ms), https://github.com/sindresorhus/sort-keys.git (sort-keys), https://github.com/sindresorhus/string-width.git (string-width), https://github.com/chalk/strip-ansi.git (strip-ansi), https://github.com/chalk/supports-color.git (supports-color), https://github.com/sindresorhus/widest-line.git (widest-line), https://github.com/sindresorhus/write-json-file.git (write-json-file), https://github.com/sindresorhus/write-pkg.git (write-pkg). This software contains the following license and notice below:
 
 MIT License
 
@@ -1370,7 +1370,7 @@ THE SOFTWARE.
 
 The following software may be included in this product: cryptiles. A copy of the source code may be downloaded from git://github.com/hapijs/cryptiles. This software contains the following license and notice below:
 
-Copyright (c) 2014, Eran Hammer and other contributors.
+Copyright (c) 2014-2017, Eran Hammer and Project contributors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -1403,7 +1403,7 @@ The complete list of contributors can be found at: https://github.com/hueniverse
 
 The following software may be included in this product: cryptiles. A copy of the source code may be downloaded from git://github.com/hapijs/cryptiles. This software contains the following license and notice below:
 
-Copyright (c) 2014-2017, Eran Hammer and Project contributors
+Copyright (c) 2014, Eran Hammer and other contributors.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4455,7 +4455,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 The following software may be included in this product: sntp. A copy of the source code may be downloaded from git://github.com/hueniverse/sntp. This software contains the following license and notice below:
 
-Copyright (c) 2012-2014, Eran Hammer and other contributors.
+Copyright (c) 2012-2016, Eran Hammer and Project contributors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4488,7 +4488,7 @@ The complete list of contributors can be found at: https://github.com/hueniverse
 
 The following software may be included in this product: sntp. A copy of the source code may be downloaded from git://github.com/hueniverse/sntp. This software contains the following license and notice below:
 
-Copyright (c) 2012-2016, Eran Hammer and Project contributors
+Copyright (c) 2012-2014, Eran Hammer and other contributors.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
