@@ -620,7 +620,7 @@
 │  │  ├─ URL: https://github.com/mhart/aws4.git
 │  │  ├─ VendorName: Michael Hart
 │  │  └─ VendorUrl: http://github.com/mhart
-│  ├─ axios@0.17.1
+│  ├─ axios@0.18.0
 │  │  ├─ URL: https://github.com/axios/axios.git
 │  │  ├─ VendorName: Matt Zabriskie
 │  │  └─ VendorUrl: https://github.com/axios/axios
@@ -1069,7 +1069,7 @@
 │  │  ├─ URL: https://github.com/sindresorhus/fn-name.git
 │  │  ├─ VendorName: Sindre Sorhus
 │  │  └─ VendorUrl: http://sindresorhus.com
-│  ├─ follow-redirects@1.3.0
+│  ├─ follow-redirects@1.4.1
 │  │  ├─ URL: git@github.com:olalonde/follow-redirects.git
 │  │  ├─ VendorName: Olivier Lalonde
 │  │  └─ VendorUrl: https://github.com/olalonde/follow-redirects
