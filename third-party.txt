@@ -83,7 +83,32 @@ THIS SOFTWARE.
 
 -----
 
-The following software may be included in this product: @types/jsdom, @types/node, @types/tough-cookie. A copy of the source code may be downloaded from https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/jsdom), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/node), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/tough-cookie). This software contains the following license and notice below:
+The following software may be included in this product: @ladjs/time-require, time-require. A copy of the source code may be downloaded from git://github.com/ladjs/time-require (@ladjs/time-require), git://github.com/jaguard/time-require (time-require). This software contains the following license and notice below:
+
+Copyright (c) 2014 Jaguard
+MIT License - http://opensource.org/licenses/mit-license.php
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
+The following software may be included in this product: @types/jsdom, @types/node, @types/strip-json-comments, @types/tough-cookie. A copy of the source code may be downloaded from https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/jsdom), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/node), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/strip-json-comments), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/tough-cookie). This software contains the following license and notice below:
 
 MIT License
 
@@ -282,7 +307,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 -----
 
-The following software may be included in this product: ansi-escapes, ansi-regex, ansi-styles, arr-exclude, array-find-index, array-union, array-uniq, arrify, auto-bind, buf-compare, builtin-modules, camelcase, camelcase-keys, chalk, clean-stack, cli-boxes, cli-cursor, code-point-at, core-assert, crypto-random-string, date-time, decamelize, detect-indent, dot-prop, escape-string-regexp, figures, find-up, fn-name, get-stream, globals, globby, got, has-ansi, has-flag, has-yarn, hasha, home-or-tmp, import-lazy, import-local, indent-string, is-binary-path, is-builtin-module, is-finite, is-fullwidth-code-point, is-generator-fn, is-obj, is-observable, is-path-inside, is-plain-obj, is-redirect, is-stream, latest-version, load-json-file, locate-path, loud-rejection, map-obj, matcher, md5-hex, meow, mimic-fn, npm-run-path, number-is-nan, object-assign, observable-to-promise, onetime, os-homedir, os-tmpdir, p-finally, p-limit, p-locate, package-json, parse-json, parse-ms, path-exists, path-is-absolute, path-key, path-type, pify, pkg-dir, plur, prepend-http, read-pkg, read-pkg-up, redent, registry-url, repeating, resolve-cwd, resolve-from, restore-cursor, semver-diff, shebang-regex, string-width, strip-ansi, strip-bom, strip-bom-buf, strip-eof, strip-indent, strip-json-comments, supports-color, term-size, time-zone, trim-newlines, trim-right, unique-string, url-parse-lax, xdg-basedir, yn. A copy of the source code may be downloaded from https://github.com/sindresorhus/ansi-escapes.git (ansi-escapes), https://github.com/chalk/ansi-regex.git (ansi-regex), https://github.com/chalk/ansi-styles.git (ansi-styles), https://github.com/sindresorhus/arr-exclude.git (arr-exclude), https://github.com/sindresorhus/array-find-index.git (array-find-index), https://github.com/sindresorhus/array-union.git (array-union), https://github.com/sindresorhus/array-uniq.git (array-uniq), https://github.com/sindresorhus/arrify.git (arrify), https://github.com/sindresorhus/auto-bind.git (auto-bind), https://github.com/sindresorhus/buf-compare.git (buf-compare), https://github.com/sindresorhus/builtin-modules.git (builtin-modules), https://github.com/sindresorhus/camelcase.git (camelcase), https://github.com/sindresorhus/camelcase-keys.git (camelcase-keys), https://github.com/chalk/chalk.git (chalk), https://github.com/sindresorhus/clean-stack.git (clean-stack), https://github.com/sindresorhus/cli-boxes.git (cli-boxes), https://github.com/sindresorhus/cli-cursor.git (cli-cursor), https://github.com/sindresorhus/code-point-at.git (code-point-at), https://github.com/sindresorhus/core-assert.git (core-assert), https://github.com/sindresorhus/crypto-random-string.git (crypto-random-string), https://github.com/sindresorhus/date-time.git (date-time), https://github.com/sindresorhus/decamelize.git (decamelize), https://github.com/sindresorhus/detect-indent.git (detect-indent), https://github.com/sindresorhus/dot-prop.git (dot-prop), https://github.com/sindresorhus/escape-string-regexp.git (escape-string-regexp), https://github.com/sindresorhus/figures.git (figures), https://github.com/sindresorhus/find-up.git (find-up), https://github.com/sindresorhus/fn-name.git (fn-name), https://github.com/sindresorhus/get-stream.git (get-stream), https://github.com/sindresorhus/globals.git (globals), https://github.com/sindresorhus/globby.git (globby), https://github.com/sindresorhus/got.git (got), https://github.com/sindresorhus/has-ansi.git (has-ansi), https://github.com/sindresorhus/has-flag.git (has-flag), https://github.com/sindresorhus/has-yarn.git (has-yarn), https://github.com/sindresorhus/hasha.git (hasha), https://github.com/sindresorhus/home-or-tmp.git (home-or-tmp), https://github.com/sindresorhus/import-lazy.git (import-lazy), https://github.com/sindresorhus/import-local.git (import-local), https://github.com/sindresorhus/indent-string.git (indent-string), https://github.com/sindresorhus/is-binary-path.git (is-binary-path), https://github.com/sindresorhus/is-builtin-module.git (is-builtin-module), https://github.com/sindresorhus/is-finite.git (is-finite), https://github.com/sindresorhus/is-fullwidth-code-point.git (is-fullwidth-code-point), https://github.com/sindresorhus/is-generator-fn.git (is-generator-fn), https://github.com/sindresorhus/is-obj.git (is-obj), https://github.com/sindresorhus/is-observable.git (is-observable), https://github.com/sindresorhus/is-path-inside.git (is-path-inside), https://github.com/sindresorhus/is-plain-obj.git (is-plain-obj), https://github.com/sindresorhus/is-redirect.git (is-redirect), https://github.com/sindresorhus/is-stream.git (is-stream), https://github.com/sindresorhus/latest-version.git (latest-version), https://github.com/sindresorhus/load-json-file.git (load-json-file), https://github.com/sindresorhus/locate-path.git (locate-path), https://github.com/sindresorhus/loud-rejection.git (loud-rejection), https://github.com/sindresorhus/map-obj.git (map-obj), https://github.com/sindresorhus/matcher.git (matcher), https://github.com/sindresorhus/md5-hex.git (md5-hex), https://github.com/sindresorhus/meow.git (meow), https://github.com/sindresorhus/mimic-fn.git (mimic-fn), https://github.com/sindresorhus/npm-run-path.git (npm-run-path), https://github.com/sindresorhus/number-is-nan.git (number-is-nan), https://github.com/sindresorhus/object-assign.git (object-assign), https://github.com/sindresorhus/observable-to-promise.git (observable-to-promise), https://github.com/sindresorhus/onetime.git (onetime), https://github.com/sindresorhus/os-homedir.git (os-homedir), https://github.com/sindresorhus/os-tmpdir.git (os-tmpdir), https://github.com/sindresorhus/p-finally.git (p-finally), https://github.com/sindresorhus/p-limit.git (p-limit), https://github.com/sindresorhus/p-locate.git (p-locate), https://github.com/sindresorhus/package-json.git (package-json), https://github.com/sindresorhus/parse-json.git (parse-json), https://github.com/sindresorhus/parse-ms.git (parse-ms), https://github.com/sindresorhus/path-exists.git (path-exists), https://github.com/sindresorhus/path-is-absolute.git (path-is-absolute), https://github.com/sindresorhus/path-key.git (path-key), https://github.com/sindresorhus/path-type.git (path-type), https://github.com/sindresorhus/pify.git (pify), https://github.com/sindresorhus/pkg-dir.git (pkg-dir), https://github.com/sindresorhus/plur.git (plur), https://github.com/sindresorhus/prepend-http.git (prepend-http), https://github.com/sindresorhus/read-pkg.git (read-pkg), https://github.com/sindresorhus/read-pkg-up.git (read-pkg-up), https://github.com/sindresorhus/redent.git (redent), https://github.com/sindresorhus/registry-url.git (registry-url), https://github.com/sindresorhus/repeating.git (repeating), https://github.com/sindresorhus/resolve-cwd.git (resolve-cwd), https://github.com/sindresorhus/resolve-from.git (resolve-from), https://github.com/sindresorhus/restore-cursor.git (restore-cursor), https://github.com/sindresorhus/semver-diff.git (semver-diff), https://github.com/sindresorhus/shebang-regex.git (shebang-regex), https://github.com/sindresorhus/string-width.git (string-width), https://github.com/chalk/strip-ansi.git (strip-ansi), https://github.com/sindresorhus/strip-bom.git (strip-bom), https://github.com/sindresorhus/strip-bom-buf.git (strip-bom-buf), https://github.com/sindresorhus/strip-eof.git (strip-eof), https://github.com/sindresorhus/strip-indent.git (strip-indent), https://github.com/sindresorhus/strip-json-comments.git (strip-json-comments), https://github.com/chalk/supports-color.git (supports-color), https://github.com/sindresorhus/term-size.git (term-size), https://github.com/sindresorhus/time-zone.git (time-zone), https://github.com/sindresorhus/trim-newlines.git (trim-newlines), https://github.com/sindresorhus/trim-right.git (trim-right), https://github.com/sindresorhus/unique-string.git (unique-string), https://github.com/sindresorhus/url-parse-lax.git (url-parse-lax), https://github.com/sindresorhus/xdg-basedir.git (xdg-basedir), https://github.com/sindresorhus/yn.git (yn). This software contains the following license and notice below:
+The following software may be included in this product: ansi-regex, ansi-styles, arr-exclude, array-find-index, array-union, array-uniq, arrify, auto-bind, buf-compare, builtin-modules, camelcase, camelcase-keys, chalk, clean-stack, cli-boxes, cli-cursor, code-point-at, core-assert, crypto-random-string, date-time, decamelize, detect-indent, dot-prop, escape-string-regexp, figures, find-up, fn-name, get-stream, globals, globby, got, has-ansi, has-flag, has-yarn, hasha, home-or-tmp, import-lazy, import-local, indent-string, is-binary-path, is-builtin-module, is-finite, is-fullwidth-code-point, is-generator-fn, is-obj, is-observable, is-path-inside, is-plain-obj, is-redirect, is-stream, latest-version, load-json-file, locate-path, loud-rejection, map-obj, matcher, md5-hex, meow, mimic-fn, npm-run-path, number-is-nan, object-assign, observable-to-promise, onetime, os-homedir, os-tmpdir, p-finally, p-limit, p-locate, package-json, parse-json, parse-ms, path-exists, path-is-absolute, path-key, path-type, pify, pkg-dir, plur, prepend-http, read-pkg, read-pkg-up, redent, registry-url, repeating, resolve-cwd, resolve-from, restore-cursor, semver-diff, serialize-error, shebang-regex, string-width, strip-ansi, strip-bom, strip-bom-buf, strip-eof, strip-indent, strip-json-comments, supports-color, term-size, time-zone, trim-newlines, trim-right, unique-string, url-parse-lax, xdg-basedir, yn. A copy of the source code may be downloaded from https://github.com/chalk/ansi-regex.git (ansi-regex), https://github.com/chalk/ansi-styles.git (ansi-styles), https://github.com/sindresorhus/arr-exclude.git (arr-exclude), https://github.com/sindresorhus/array-find-index.git (array-find-index), https://github.com/sindresorhus/array-union.git (array-union), https://github.com/sindresorhus/array-uniq.git (array-uniq), https://github.com/sindresorhus/arrify.git (arrify), https://github.com/sindresorhus/auto-bind.git (auto-bind), https://github.com/sindresorhus/buf-compare.git (buf-compare), https://github.com/sindresorhus/builtin-modules.git (builtin-modules), https://github.com/sindresorhus/camelcase.git (camelcase), https://github.com/sindresorhus/camelcase-keys.git (camelcase-keys), https://github.com/chalk/chalk.git (chalk), https://github.com/sindresorhus/clean-stack.git (clean-stack), https://github.com/sindresorhus/cli-boxes.git (cli-boxes), https://github.com/sindresorhus/cli-cursor.git (cli-cursor), https://github.com/sindresorhus/code-point-at.git (code-point-at), https://github.com/sindresorhus/core-assert.git (core-assert), https://github.com/sindresorhus/crypto-random-string.git (crypto-random-string), https://github.com/sindresorhus/date-time.git (date-time), https://github.com/sindresorhus/decamelize.git (decamelize), https://github.com/sindresorhus/detect-indent.git (detect-indent), https://github.com/sindresorhus/dot-prop.git (dot-prop), https://github.com/sindresorhus/escape-string-regexp.git (escape-string-regexp), https://github.com/sindresorhus/figures.git (figures), https://github.com/sindresorhus/find-up.git (find-up), https://github.com/sindresorhus/fn-name.git (fn-name), https://github.com/sindresorhus/get-stream.git (get-stream), https://github.com/sindresorhus/globals.git (globals), https://github.com/sindresorhus/globby.git (globby), https://github.com/sindresorhus/got.git (got), https://github.com/sindresorhus/has-ansi.git (has-ansi), https://github.com/sindresorhus/has-flag.git (has-flag), https://github.com/sindresorhus/has-yarn.git (has-yarn), https://github.com/sindresorhus/hasha.git (hasha), https://github.com/sindresorhus/home-or-tmp.git (home-or-tmp), https://github.com/sindresorhus/import-lazy.git (import-lazy), https://github.com/sindresorhus/import-local.git (import-local), https://github.com/sindresorhus/indent-string.git (indent-string), https://github.com/sindresorhus/is-binary-path.git (is-binary-path), https://github.com/sindresorhus/is-builtin-module.git (is-builtin-module), https://github.com/sindresorhus/is-finite.git (is-finite), https://github.com/sindresorhus/is-fullwidth-code-point.git (is-fullwidth-code-point), https://github.com/sindresorhus/is-generator-fn.git (is-generator-fn), https://github.com/sindresorhus/is-obj.git (is-obj), https://github.com/sindresorhus/is-observable.git (is-observable), https://github.com/sindresorhus/is-path-inside.git (is-path-inside), https://github.com/sindresorhus/is-plain-obj.git (is-plain-obj), https://github.com/sindresorhus/is-redirect.git (is-redirect), https://github.com/sindresorhus/is-stream.git (is-stream), https://github.com/sindresorhus/latest-version.git (latest-version), https://github.com/sindresorhus/load-json-file.git (load-json-file), https://github.com/sindresorhus/locate-path.git (locate-path), https://github.com/sindresorhus/loud-rejection.git (loud-rejection), https://github.com/sindresorhus/map-obj.git (map-obj), https://github.com/sindresorhus/matcher.git (matcher), https://github.com/sindresorhus/md5-hex.git (md5-hex), https://github.com/sindresorhus/meow.git (meow), https://github.com/sindresorhus/mimic-fn.git (mimic-fn), https://github.com/sindresorhus/npm-run-path.git (npm-run-path), https://github.com/sindresorhus/number-is-nan.git (number-is-nan), https://github.com/sindresorhus/object-assign.git (object-assign), https://github.com/sindresorhus/observable-to-promise.git (observable-to-promise), https://github.com/sindresorhus/onetime.git (onetime), https://github.com/sindresorhus/os-homedir.git (os-homedir), https://github.com/sindresorhus/os-tmpdir.git (os-tmpdir), https://github.com/sindresorhus/p-finally.git (p-finally), https://github.com/sindresorhus/p-limit.git (p-limit), https://github.com/sindresorhus/p-locate.git (p-locate), https://github.com/sindresorhus/package-json.git (package-json), https://github.com/sindresorhus/parse-json.git (parse-json), https://github.com/sindresorhus/parse-ms.git (parse-ms), https://github.com/sindresorhus/path-exists.git (path-exists), https://github.com/sindresorhus/path-is-absolute.git (path-is-absolute), https://github.com/sindresorhus/path-key.git (path-key), https://github.com/sindresorhus/path-type.git (path-type), https://github.com/sindresorhus/pify.git (pify), https://github.com/sindresorhus/pkg-dir.git (pkg-dir), https://github.com/sindresorhus/plur.git (plur), https://github.com/sindresorhus/prepend-http.git (prepend-http), https://github.com/sindresorhus/read-pkg.git (read-pkg), https://github.com/sindresorhus/read-pkg-up.git (read-pkg-up), https://github.com/sindresorhus/redent.git (redent), https://github.com/sindresorhus/registry-url.git (registry-url), https://github.com/sindresorhus/repeating.git (repeating), https://github.com/sindresorhus/resolve-cwd.git (resolve-cwd), https://github.com/sindresorhus/resolve-from.git (resolve-from), https://github.com/sindresorhus/restore-cursor.git (restore-cursor), https://github.com/sindresorhus/semver-diff.git (semver-diff), https://github.com/sindresorhus/serialize-error.git (serialize-error), https://github.com/sindresorhus/shebang-regex.git (shebang-regex), https://github.com/sindresorhus/string-width.git (string-width), https://github.com/chalk/strip-ansi.git (strip-ansi), https://github.com/sindresorhus/strip-bom.git (strip-bom), https://github.com/sindresorhus/strip-bom-buf.git (strip-bom-buf), https://github.com/sindresorhus/strip-eof.git (strip-eof), https://github.com/sindresorhus/strip-indent.git (strip-indent), https://github.com/sindresorhus/strip-json-comments.git (strip-json-comments), https://github.com/chalk/supports-color.git (supports-color), https://github.com/sindresorhus/term-size.git (term-size), https://github.com/sindresorhus/time-zone.git (time-zone), https://github.com/sindresorhus/trim-newlines.git (trim-newlines), https://github.com/sindresorhus/trim-right.git (trim-right), https://github.com/sindresorhus/unique-string.git (unique-string), https://github.com/sindresorhus/url-parse-lax.git (url-parse-lax), https://github.com/sindresorhus/xdg-basedir.git (xdg-basedir), https://github.com/sindresorhus/yn.git (yn). This software contains the following license and notice below:
 
 The MIT License (MIT)
 
@@ -743,8 +768,7 @@ THE SOFTWARE.
 
 The following software may be included in this product: boom. A copy of the source code may be downloaded from git://github.com/hapijs/boom. This software contains the following license and notice below:
 
-Copyright (c) 2012-2017, Project contributors.
-Copyright (c) 2012-2014, Walmart.
+Copyright (c) 2012-2014, Walmart and other contributors.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -777,7 +801,8 @@ The complete list of contributors can be found at: https://github.com/hapijs/boo
 
 The following software may be included in this product: boom. A copy of the source code may be downloaded from git://github.com/hapijs/boom. This software contains the following license and notice below:
 
-Copyright (c) 2012-2014, Walmart and other contributors.
+Copyright (c) 2012-2017, Project contributors.
+Copyright (c) 2012-2014, Walmart.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -1163,7 +1188,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 -----
 
-The following software may be included in this product: concat-map, deep-equal, fast-json-stable-stringify, is-typedarray, json-stable-stringify, minimist, resolve, text-table, wordwrap. A copy of the source code may be downloaded from git://github.com/substack/node-concat-map.git (concat-map), http://github.com/substack/node-deep-equal.git (deep-equal), git://github.com/epoberezkin/fast-json-stable-stringify.git (fast-json-stable-stringify), git://github.com/hughsk/is-typedarray.git (is-typedarray), git://github.com/substack/json-stable-stringify.git (json-stable-stringify), git://github.com/substack/minimist.git (minimist), git://github.com/substack/node-resolve.git (resolve), git://github.com/substack/text-table.git (text-table), git://github.com/substack/node-wordwrap.git (wordwrap). This software contains the following license and notice below:
+The following software may be included in this product: concat-map, deep-equal, fast-json-stable-stringify, is-typedarray, json-stable-stringify, minimist, resolve, text-table, wordwrap. A copy of the source code may be downloaded from git://github.com/substack/node-concat-map.git (concat-map), http://github.com/substack/node-deep-equal.git (deep-equal), git://github.com/epoberezkin/fast-json-stable-stringify.git (fast-json-stable-stringify), git://github.com/hughsk/is-typedarray.git (is-typedarray), git://github.com/substack/json-stable-stringify.git (json-stable-stringify), git://github.com/substack/minimist.git (minimist), git://github.com/browserify/node-resolve.git (resolve), git://github.com/substack/text-table.git (text-table), git://github.com/substack/node-wordwrap.git (wordwrap). This software contains the following license and notice below:
 
 This software is released under the MIT license:
 
@@ -1370,7 +1395,7 @@ THE SOFTWARE.
 
 The following software may be included in this product: cryptiles. A copy of the source code may be downloaded from git://github.com/hapijs/cryptiles. This software contains the following license and notice below:
 
-Copyright (c) 2014-2017, Eran Hammer and Project contributors
+Copyright (c) 2014, Eran Hammer and other contributors.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -1403,7 +1428,7 @@ The complete list of contributors can be found at: https://github.com/hueniverse
 
 The following software may be included in this product: cryptiles. A copy of the source code may be downloaded from git://github.com/hapijs/cryptiles. This software contains the following license and notice below:
 
-Copyright (c) 2014, Eran Hammer and other contributors.
+Copyright (c) 2014-2017, Eran Hammer and Project contributors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4455,7 +4480,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 The following software may be included in this product: sntp. A copy of the source code may be downloaded from git://github.com/hueniverse/sntp. This software contains the following license and notice below:
 
-Copyright (c) 2012-2016, Eran Hammer and Project contributors
+Copyright (c) 2012-2014, Eran Hammer and other contributors.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4488,7 +4513,7 @@ The complete list of contributors can be found at: https://github.com/hueniverse
 
 The following software may be included in this product: sntp. A copy of the source code may be downloaded from git://github.com/hueniverse/sntp. This software contains the following license and notice below:
 
-Copyright (c) 2012-2014, Eran Hammer and other contributors.
+Copyright (c) 2012-2016, Eran Hammer and Project contributors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4800,6 +4825,20 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+-----
+
+The following software may be included in this product: supertap. A copy of the source code may be downloaded from https://github.com/vadimdemedes/supertap.git. This software contains the following license and notice below:
+
+MIT License
+
+Copyright (c) Vadim Demedes <vdemedes@gmail.com> (github.com/vadimdemedes)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 -----
 
@@ -5239,31 +5278,6 @@ pre code, pre tt {
     </div>
   </body>
 </html>
-
------
-
-The following software may be included in this product: time-require. A copy of the source code may be downloaded from git://github.com/jaguard/time-require. This software contains the following license and notice below:
-
-Copyright (c) 2014 Jaguard
-MIT License - http://opensource.org/licenses/mit-license.php
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
 
 -----
 

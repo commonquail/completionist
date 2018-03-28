@@ -13,6 +13,7 @@
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
+    "strictPropertyInitialization": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noUnusedLocals": false, // Very annoying.
