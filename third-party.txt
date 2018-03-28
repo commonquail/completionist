@@ -108,7 +108,7 @@ THE SOFTWARE.
 
 -----
 
-The following software may be included in this product: @types/jsdom, @types/node, @types/strip-json-comments, @types/tough-cookie. A copy of the source code may be downloaded from https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/jsdom), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/node), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/strip-json-comments), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/tough-cookie). This software contains the following license and notice below:
+The following software may be included in this product: @types/acorn, @types/estree, @types/jsdom, @types/node, @types/strip-json-comments, @types/tough-cookie. A copy of the source code may be downloaded from https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/acorn), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/estree), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/jsdom), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/node), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/strip-json-comments), https://www.github.com/DefinitelyTyped/DefinitelyTyped.git (@types/tough-cookie). This software contains the following license and notice below:
 
 MIT License
 
@@ -225,6 +225,56 @@ THE SOFTWARE.
 
 -----
 
+The following software may be included in this product: acorn. A copy of the source code may be downloaded from https://github.com/acornjs/acorn.git. This software contains the following license and notice below:
+
+Copyright (C) 2012-2018 by various contributors (see AUTHORS)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----
+
+The following software may be included in this product: acorn-dynamic-import. A copy of the source code may be downloaded from https://github.com/kesne/acorn-dynamic-import. This software contains the following license and notice below:
+
+MIT License
+
+Copyright (c) 2016 Jordan Gensler
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-----
+
 The following software may be included in this product: acorn-globals, is-promise. A copy of the source code may be downloaded from https://github.com/ForbesLindesay/acorn-globals.git (acorn-globals), https://github.com/then/is-promise.git (is-promise). This software contains the following license and notice below:
 
 Copyright (c) 2014 Forbes Lindesay
@@ -293,7 +343,7 @@ THIS SOFTWARE.
 
 -----
 
-The following software may be included in this product: ansi-escapes, ansi-regex, ansi-styles, ava, ava-init, ava-ts, binary-extensions, boxen, chalk, cli-spinners, cli-truncate, execa, get-port, global-dirs, has-flag, indent-string, irregular-plurals, is-installed-globally, is-observable, make-dir, parse-json, pify, pkg-conf, pretty-ms, sort-keys, string-width, strip-ansi, supports-color, widest-line, write-json-file, write-pkg. A copy of the source code may be downloaded from https://github.com/sindresorhus/ansi-escapes.git (ansi-escapes), https://github.com/chalk/ansi-regex.git (ansi-regex), https://github.com/chalk/ansi-styles.git (ansi-styles), https://github.com/avajs/ava.git (ava), https://github.com/avajs/ava-init.git (ava-init), https://github.com/andywer/ava-ts.git (ava-ts), https://github.com/sindresorhus/binary-extensions.git (binary-extensions), https://github.com/sindresorhus/boxen.git (boxen), https://github.com/chalk/chalk.git (chalk), https://github.com/sindresorhus/cli-spinners.git (cli-spinners), https://github.com/sindresorhus/cli-truncate.git (cli-truncate), https://github.com/sindresorhus/execa.git (execa), https://github.com/sindresorhus/get-port.git (get-port), https://github.com/sindresorhus/global-dirs.git (global-dirs), https://github.com/sindresorhus/has-flag.git (has-flag), https://github.com/sindresorhus/indent-string.git (indent-string), https://github.com/sindresorhus/irregular-plurals.git (irregular-plurals), https://github.com/sindresorhus/is-installed-globally.git (is-installed-globally), https://github.com/sindresorhus/is-observable.git (is-observable), https://github.com/sindresorhus/make-dir.git (make-dir), https://github.com/sindresorhus/parse-json.git (parse-json), https://github.com/sindresorhus/pify.git (pify), https://github.com/sindresorhus/pkg-conf.git (pkg-conf), https://github.com/sindresorhus/pretty-ms.git (pretty-ms), https://github.com/sindresorhus/sort-keys.git (sort-keys), https://github.com/sindresorhus/string-width.git (string-width), https://github.com/chalk/strip-ansi.git (strip-ansi), https://github.com/chalk/supports-color.git (supports-color), https://github.com/sindresorhus/widest-line.git (widest-line), https://github.com/sindresorhus/write-json-file.git (write-json-file), https://github.com/sindresorhus/write-pkg.git (write-pkg). This software contains the following license and notice below:
+The following software may be included in this product: ansi-escapes, ansi-regex, ansi-styles, ava, ava-init, ava-ts, binary-extensions, boxen, builtin-modules, chalk, cli-spinners, cli-truncate, execa, get-port, global-dirs, has-flag, indent-string, irregular-plurals, is-installed-globally, is-observable, make-dir, parse-json, pify, pkg-conf, pretty-ms, sort-keys, string-width, strip-ansi, supports-color, widest-line, write-json-file, write-pkg. A copy of the source code may be downloaded from https://github.com/sindresorhus/ansi-escapes.git (ansi-escapes), https://github.com/chalk/ansi-regex.git (ansi-regex), https://github.com/chalk/ansi-styles.git (ansi-styles), https://github.com/avajs/ava.git (ava), https://github.com/avajs/ava-init.git (ava-init), https://github.com/andywer/ava-ts.git (ava-ts), https://github.com/sindresorhus/binary-extensions.git (binary-extensions), https://github.com/sindresorhus/boxen.git (boxen), https://github.com/sindresorhus/builtin-modules.git (builtin-modules), https://github.com/chalk/chalk.git (chalk), https://github.com/sindresorhus/cli-spinners.git (cli-spinners), https://github.com/sindresorhus/cli-truncate.git (cli-truncate), https://github.com/sindresorhus/execa.git (execa), https://github.com/sindresorhus/get-port.git (get-port), https://github.com/sindresorhus/global-dirs.git (global-dirs), https://github.com/sindresorhus/has-flag.git (has-flag), https://github.com/sindresorhus/indent-string.git (indent-string), https://github.com/sindresorhus/irregular-plurals.git (irregular-plurals), https://github.com/sindresorhus/is-installed-globally.git (is-installed-globally), https://github.com/sindresorhus/is-observable.git (is-observable), https://github.com/sindresorhus/make-dir.git (make-dir), https://github.com/sindresorhus/parse-json.git (parse-json), https://github.com/sindresorhus/pify.git (pify), https://github.com/sindresorhus/pkg-conf.git (pkg-conf), https://github.com/sindresorhus/pretty-ms.git (pretty-ms), https://github.com/sindresorhus/sort-keys.git (sort-keys), https://github.com/sindresorhus/string-width.git (string-width), https://github.com/chalk/strip-ansi.git (strip-ansi), https://github.com/chalk/supports-color.git (supports-color), https://github.com/sindresorhus/widest-line.git (widest-line), https://github.com/sindresorhus/write-json-file.git (write-json-file), https://github.com/sindresorhus/write-pkg.git (write-pkg). This software contains the following license and notice below:
 
 MIT License
 
@@ -856,32 +906,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
------
-
-The following software may be included in this product: browser-resolve. A copy of the source code may be downloaded from git://github.com/shtylman/node-browser-resolve.git. This software contains the following license and notice below:
-
-The MIT License (MIT)
-
-Copyright (c) 2013-2015 Roman Shtylman <shtylman@gmail.com>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 -----
 
@@ -2690,8 +2714,7 @@ The complete list of contributors can be found at: https://github.com/hueniverse
 
 The following software may be included in this product: hoek. A copy of the source code may be downloaded from git://github.com/hapijs/hoek. This software contains the following license and notice below:
 
-Copyright (c) 2011-2016, Project contributors
-Copyright (c) 2011-2014, Walmart
+Copyright (c) 2011-2014, Walmart and other contributors.
 Copyright (c) 2011, Yahoo Inc.
 All rights reserved.
 
@@ -2727,7 +2750,8 @@ published at https://github.com/yahoo/postmile.
 
 The following software may be included in this product: hoek. A copy of the source code may be downloaded from git://github.com/hapijs/hoek. This software contains the following license and notice below:
 
-Copyright (c) 2011-2014, Walmart and other contributors.
+Copyright (c) 2011-2016, Project contributors
+Copyright (c) 2011-2014, Walmart
 Copyright (c) 2011, Yahoo Inc.
 All rights reserved.
 
@@ -4480,7 +4504,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 The following software may be included in this product: sntp. A copy of the source code may be downloaded from git://github.com/hueniverse/sntp. This software contains the following license and notice below:
 
-Copyright (c) 2012-2014, Eran Hammer and other contributors.
+Copyright (c) 2012-2016, Eran Hammer and Project contributors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4513,7 +4537,7 @@ The complete list of contributors can be found at: https://github.com/hueniverse
 
 The following software may be included in this product: sntp. A copy of the source code may be downloaded from git://github.com/hueniverse/sntp. This software contains the following license and notice below:
 
-Copyright (c) 2012-2016, Eran Hammer and Project contributors
+Copyright (c) 2012-2014, Eran Hammer and other contributors.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4599,6 +4623,32 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-----
+
+The following software may be included in this product: sourcemap-codec. A copy of the source code may be downloaded from https://github.com/Rich-Harris/sourcemap-codec. This software contains the following license and notice below:
+
+The MIT License
+
+Copyright (c) 2015 Rich Harris
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 -----
 
@@ -5585,7 +5635,7 @@ For more information, please refer to <http://unlicense.org>
 
 -----
 
-The following software may be included in this product: uglify-js. A copy of the source code may be downloaded from https://github.com/mishoo/UglifyJS2.git. This software contains the following license and notice below:
+The following software may be included in this product: uglify-es. A copy of the source code may be downloaded from https://github.com/mishoo/UglifyJS2.git#harmony. This software contains the following license and notice below:
 
 UglifyJS is released under the BSD license:
 
