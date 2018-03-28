@@ -49,11 +49,11 @@
 │  │  ├─ URL: https://github.com/kemitchell/spdx-correct.js.git
 │  │  ├─ VendorName: Kyle E. Mitchell
 │  │  └─ VendorUrl: https://kemitchell.com
-│  ├─ tslib@1.8.0
+│  ├─ tslib@1.8.1
 │  │  ├─ URL: https://github.com/Microsoft/tslib.git
 │  │  ├─ VendorName: Microsoft Corp.
 │  │  └─ VendorUrl: http://typescriptlang.org/
-│  ├─ tslib@1.8.1
+│  ├─ tslib@1.9.0
 │  │  ├─ URL: https://github.com/Microsoft/tslib.git
 │  │  ├─ VendorName: Microsoft Corp.
 │  │  └─ VendorUrl: http://typescriptlang.org/
@@ -63,7 +63,7 @@
 │  │  ├─ URL: https://github.com/mikeal/tunnel-agent
 │  │  ├─ VendorName: Mikeal Rogers
 │  │  └─ VendorUrl: http://www.futurealoof.com
-│  ├─ typescript@2.6.2
+│  ├─ typescript@2.8.1
 │  │  ├─ URL: https://github.com/Microsoft/TypeScript.git
 │  │  ├─ VendorName: Microsoft Corp.
 │  │  └─ VendorUrl: http://typescriptlang.org/
@@ -160,6 +160,8 @@
 │  ├─ cryptiles@3.1.2
 │  │  └─ URL: git://github.com/hapijs/cryptiles
 │  ├─ diff@3.4.0
+│  │  └─ URL: git://github.com/kpdecker/jsdiff.git
+│  ├─ diff@3.5.0
 │  │  └─ URL: git://github.com/kpdecker/jsdiff.git
 │  ├─ duplexer3@0.1.4
 │  │  ├─ URL: https://github.com/floatdrop/duplexer3.git
@@ -467,6 +469,10 @@
 │  │  ├─ URL: https://github.com/avajs/babel-preset-transform-test-files.git
 │  │  ├─ VendorName: Mark Wubben
 │  │  └─ VendorUrl: https://novemberborn.net
+│  ├─ @ladjs/time-require@0.1.4
+│  │  ├─ URL: git://github.com/ladjs/time-require
+│  │  ├─ VendorName: Jaguard OSS
+│  │  └─ VendorUrl: https://github.com/ladjs/time-require
 │  ├─ @types/jsdom@11.0.4
 │  │  └─ URL: https://www.github.com/DefinitelyTyped/DefinitelyTyped.git
 │  ├─ @types/node@6.0.90
@@ -474,6 +480,11 @@
 │  ├─ @types/node@8.5.5
 │  │  └─ URL: https://www.github.com/DefinitelyTyped/DefinitelyTyped.git
 │  ├─ @types/node@8.5.7
+│  │  └─ URL: https://www.github.com/DefinitelyTyped/DefinitelyTyped.git
+│  ├─ @types/strip-bom@3.0.0
+│  │  ├─ URL: https://www.github.com/DefinitelyTyped/DefinitelyTyped.git
+│  │  └─ VendorName: Mohamed Hegazy
+│  ├─ @types/strip-json-comments@0.0.30
 │  │  └─ URL: https://www.github.com/DefinitelyTyped/DefinitelyTyped.git
 │  ├─ @types/tough-cookie@2.3.2
 │  │  └─ URL: https://www.github.com/DefinitelyTyped/DefinitelyTyped.git
@@ -494,10 +505,6 @@
 │  │  ├─ URL: https://github.com/epoberezkin/ajv.git
 │  │  ├─ VendorName: Evgeny Poberezkin
 │  │  └─ VendorUrl: https://github.com/epoberezkin/ajv
-│  ├─ ansi-escapes@2.0.0
-│  │  ├─ URL: https://github.com/sindresorhus/ansi-escapes.git
-│  │  ├─ VendorName: Sindre Sorhus
-│  │  └─ VendorUrl: sindresorhus.com
 │  ├─ ansi-escapes@3.0.0
 │  │  ├─ URL: https://github.com/sindresorhus/ansi-escapes.git
 │  │  ├─ VendorName: Sindre Sorhus
@@ -593,11 +600,9 @@
 │  │  ├─ URL: https://github.com/avajs/ava-init.git
 │  │  ├─ VendorName: Sindre Sorhus
 │  │  └─ VendorUrl: sindresorhus.com
-│  ├─ ava-ts@0.23.0
-│  │  ├─ URL: https://github.com/andywer/ava-ts.git
-│  │  ├─ VendorName: Sindre Sorhus
-│  │  └─ VendorUrl: sindresorhus.com
-│  ├─ ava@0.24.0
+│  ├─ ava-ts@0.24.2
+│  │  └─ URL: https://github.com/andywer/ava-ts.git
+│  ├─ ava@0.25.0
 │  │  ├─ URL: https://github.com/avajs/ava.git
 │  │  └─ VendorUrl: https://ava.li/
 │  ├─ aws4@1.6.0
@@ -814,6 +819,10 @@
 │  ├─ co@4.6.0
 │  │  └─ URL: https://github.com/tj/co.git
 │  ├─ code-excerpt@2.1.0
+│  │  ├─ URL: https://github.com/vadimdemedes/code-excerpt.git
+│  │  ├─ VendorName: vdemedes
+│  │  └─ VendorUrl: github.com/vadimdemedes
+│  ├─ code-excerpt@2.1.1
 │  │  ├─ URL: https://github.com/vadimdemedes/code-excerpt.git
 │  │  ├─ VendorName: vdemedes
 │  │  └─ VendorUrl: github.com/vadimdemedes
@@ -1827,6 +1836,10 @@
 │  │  ├─ URL: git://github.com/browserify/node-resolve.git
 │  │  ├─ VendorName: James Halliday
 │  │  └─ VendorUrl: http://substack.net
+│  ├─ resolve@1.6.0
+│  │  ├─ URL: git://github.com/browserify/node-resolve.git
+│  │  ├─ VendorName: James Halliday
+│  │  └─ VendorUrl: http://substack.net
 │  ├─ restore-cursor@2.0.0
 │  │  ├─ URL: https://github.com/sindresorhus/restore-cursor.git
 │  │  ├─ VendorName: Sindre Sorhus
@@ -1869,6 +1882,10 @@
 │  │  ├─ URL: https://github.com/sindresorhus/semver-diff.git
 │  │  ├─ VendorName: Sindre Sorhus
 │  │  └─ VendorUrl: http://sindresorhus.com
+│  ├─ serialize-error@2.1.0
+│  │  ├─ URL: https://github.com/sindresorhus/serialize-error.git
+│  │  ├─ VendorName: Sindre Sorhus
+│  │  └─ VendorUrl: sindresorhus.com
 │  ├─ set-immediate-shim@1.0.1
 │  │  ├─ URL: https://github.com/sindresorhus/set-immediate-shim.git
 │  │  ├─ VendorName: Sindre Sorhus
@@ -1955,6 +1972,10 @@
 │  │  ├─ URL: https://github.com/sindresorhus/strip-json-comments.git
 │  │  ├─ VendorName: Sindre Sorhus
 │  │  └─ VendorUrl: sindresorhus.com
+│  ├─ supertap@1.0.0
+│  │  ├─ URL: https://github.com/vadimdemedes/supertap.git
+│  │  ├─ VendorName: Vadim Demedes
+│  │  └─ VendorUrl: github.com/vadimdemedes
 │  ├─ supports-color@2.0.0
 │  │  ├─ URL: https://github.com/chalk/supports-color.git
 │  │  ├─ VendorName: Sindre Sorhus
@@ -2023,15 +2044,15 @@
 │  │  ├─ URL: https://github.com/sindresorhus/trim-right.git
 │  │  ├─ VendorName: Sindre Sorhus
 │  │  └─ VendorUrl: sindresorhus.com
-│  ├─ ts-node@3.3.0
+│  ├─ ts-node@4.1.0
 │  │  ├─ URL: git://github.com/TypeStrong/ts-node.git
 │  │  ├─ VendorName: Blake Embrey
 │  │  └─ VendorUrl: https://github.com/TypeStrong/ts-node
-│  ├─ tsconfig@6.0.0
+│  ├─ tsconfig@7.0.0
 │  │  ├─ URL: https://github.com/TypeStrong/tsconfig.git
 │  │  ├─ VendorName: Blake Embrey
 │  │  └─ VendorUrl: https://github.com/TypeStrong/tsconfig
-│  ├─ tsutils@2.12.1
+│  ├─ tsutils@2.24.0
 │  │  ├─ URL: https://github.com/ajafff/tsutils
 │  │  └─ VendorName: Klaus Meinhardt
 │  ├─ type-check@0.3.2
