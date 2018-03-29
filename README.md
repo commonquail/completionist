@@ -68,9 +68,18 @@ burden of maintenance and avoids the recursive license duplication that would
 occur if software derived from this distribution were to generate license
 information in the same way.
 
+Terms of use further require the following notice [[gw2-legal]]:
+
+> NCSOFT, the interlocking NC logo, ArenaNet, *Guild Wars*, *Guild Wars
+> Factions*, *Guild Wars Nightfall*, *Guild Wars: Eye of the North*, *Guild
+> Wars 2*, *Heart of Thorns*, and all associated logos and designs are
+> trademarks or registered trademarks of NCSOFT Corporation. All other
+> trademarks are the property of their respective owners.
+
 [daily]: https://wiki.guildwars2.com/wiki/Daily
 [gw2-api-daily]: https://wiki.guildwars2.com/wiki/API:2/achievements/daily
 [gw2-api]: https://wiki.guildwars2.com/wiki/API:Main
+[gw2-legal]: https://www.guildwars2.com/en/legal/guild-wars-2-content-terms-of-use/
 [gw2ef-daily]: https://gw2efficiency.com/daily
 [license]: https://www.apache.org/dev/apply-license.html#new "Applying the license to new software"
 [notice]: https://www.apache.org/legal/src-headers.html#notice "NOTICE file"
