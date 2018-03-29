@@ -1,0 +1,933 @@
+[
+  {
+    "id": 1939,
+    "name": "Daily Activity Participation",
+    "description": "Get those bodies moving.",
+    "requirement": "Join in on an activity.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 1
+      }
+    ]
+  },
+  {
+    "id": 1969,
+    "name": "Daily Maguuma Jungle Miner",
+    "description": "Fueling the engines of the economy.",
+    "requirement": "Gather raw materials by mining ore in the following Maguuma Jungle maps: Caledon Forest, Metrica Province, Brisban Wildlands, Sparkfly Fen, and Mount Maelstrom.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 10,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68137,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 3562,
+    "name": "Daily Vabbian Bounty Hunter",
+    "description": "Just a matter of time...",
+    "requirement": "Complete a bounty in the Domain of Vabbi.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 83524,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 1932,
+    "name": "Daily Orr Vista Viewer",
+    "description": "Always on the lookout for a good view.",
+    "requirement": "View a vista in one of the following Orr maps: Straits of Devastation, Malchor's Leap, and Cursed Shore.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68115,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 1839,
+    "name": "Daily Kryta Vista Viewer",
+    "description": "Always on the lookout for a good view.",
+    "requirement": "View a vista in one of the following Kryta maps: Queensdale, Kessex Hills, Gendarran Fields, Harathi Hinterlands, Bloodtide Coast, and Southsun Cove.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68115,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 1946,
+    "name": "Daily Blazeridge Steppes Event Completer",
+    "description": "Scour the mountains.",
+    "requirement": "Complete events in the Blazeridge Steppes in Ascalon.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 4,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68149,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 1964,
+    "name": "Daily Plains of Ashford Event Completer",
+    "description": "Scour the mountains.",
+    "requirement": "Complete events in the Plains of Ashford in Ascalon.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 4,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68149,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2025,
+    "name": "Daily Shadow Behemoth",
+    "description": "",
+    "requirement": "Defeat the Shadow Behemoth in Godslost Swamp in Queensdale.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68160,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2816,
+    "icon": "https://render.guildwars2.com/file/FE01AF14D91F52A1EF2B22FE0A552B9EE2E4C3F6/511340.png",
+    "name": "Daily PvP Matches Played in Unranked or Ranked Arena",
+    "description": "Win or lose, you see it through to the end.",
+    "requirement": "Complete any PvP match.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68117,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 1861,
+    "icon": "https://render.guildwars2.com/file/FE01AF14D91F52A1EF2B22FE0A552B9EE2E4C3F6/511340.png",
+    "name": "Daily PvP Player Kills",
+    "description": "Maybe they'll stay down today.",
+    "requirement": "Kill, or help kill,  enemy player in a PvP match.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 3,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68117,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 3450,
+    "icon": "https://render.guildwars2.com/file/FE01AF14D91F52A1EF2B22FE0A552B9EE2E4C3F6/511340.png",
+    "name": "Daily PvP Tournament Participator",
+    "description": "Climb that ladder!",
+    "requirement": "Participate in a PvP Tournament",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68120,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 3449,
+    "icon": "https://render.guildwars2.com/file/FE01AF14D91F52A1EF2B22FE0A552B9EE2E4C3F6/511340.png",
+    "name": "Daily PvP Rated Game Winner",
+    "description": "",
+    "requirement": "Win a rated game in PvP.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68120,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 946,
+    "icon": "https://render.guildwars2.com/file/2BBA251A24A2C1A0A305D561580449AF5B55F54F/338457.png",
+    "name": "Daily WvW Master of Monuments",
+    "description": "",
+    "requirement": "Capture  ruin or shrine in any of the WvW Borderlands.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78485,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 1848,
+    "icon": "https://render.guildwars2.com/file/2BBA251A24A2C1A0A305D561580449AF5B55F54F/338457.png",
+    "name": "Daily WvW Veteran Creature Slayer",
+    "description": "",
+    "requirement": "Kill the veteran harpy, warg, or wurm located in the Borderlands in World vs. World.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78485,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 1845,
+    "icon": "https://render.guildwars2.com/file/2BBA251A24A2C1A0A305D561580449AF5B55F54F/338457.png",
+    "name": "Daily WvW Keep Capturer",
+    "description": "",
+    "requirement": "Capture a keep for your realm in World vs. World.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78350,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 1843,
+    "icon": "https://render.guildwars2.com/file/2BBA251A24A2C1A0A305D561580449AF5B55F54F/338457.png",
+    "name": "Daily WvW Tower Capturer",
+    "description": "",
+    "requirement": "Capture towers for your realm in World versus World.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Pvp",
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78353,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2473,
+    "icon": "https://render.guildwars2.com/file/4A5834E40CDC6A0C44085B1F697565002D71CD47/1228226.png",
+    "name": "Daily Recommended Fractal—Scale 25",
+    "description": "",
+    "requirement": "Complete the fractal dungeon at this difficulty in the Fractals of the Mists through the portal in Lion's Arch.\nRequires the mastery Follows Advice.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 68126,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2309,
+    "icon": "https://render.guildwars2.com/file/4A5834E40CDC6A0C44085B1F697565002D71CD47/1228226.png",
+    "name": "Daily Recommended Fractal—Scale 36",
+    "description": "",
+    "requirement": "Complete the fractal dungeon at this difficulty in the Fractals of the Mists through the portal in Lion's Arch.\nRequires the mastery Follows Advice.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "prerequisites": [
+      2248
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 77580,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 4028,
+    "icon": "https://render.guildwars2.com/file/A442B13E7B0D4A2F7136702FA858EA0C9F0CE4B3/1228223.png",
+    "name": "Daily Tier 1 Twilight Oasis",
+    "description": "",
+    "requirement": "Complete Twilight Oasis at fractal scale 1 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 87"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 59"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 41"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 16"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78200,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 4006,
+    "icon": "https://render.guildwars2.com/file/ABF6ED0AD392B3279E77D0D9346CFC65EE9C100F/1228224.png",
+    "name": "Daily Tier 2 Twilight Oasis",
+    "description": "",
+    "requirement": "Complete Twilight Oasis at fractal scale 26 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 87"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 59"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 41"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78260,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 4030,
+    "icon": "https://render.guildwars2.com/file/339192F5581BB3F771CF359BAB2C90537BD560CB/1228225.png",
+    "name": "Daily Tier 3 Twilight Oasis",
+    "description": "",
+    "requirement": "Complete Twilight Oasis at fractal scale 51 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 87"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 59"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78613,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 3973,
+    "icon": "https://render.guildwars2.com/file/620E0D3D2DD860700632BA7B3AC10C44CE55FD6C/1424206.png",
+    "name": "Daily Tier 4 Twilight Oasis",
+    "description": "",
+    "requirement": "Complete Twilight Oasis at fractal scale 76 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 87"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78572,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2929,
+    "icon": "https://render.guildwars2.com/file/A442B13E7B0D4A2F7136702FA858EA0C9F0CE4B3/1228223.png",
+    "name": "Daily Tier 1 Underground Facility",
+    "description": "",
+    "requirement": "Complete Underground Facility at fractal scale 1 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 81"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 53"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 43"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 29"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 17"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 8"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78200,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2889,
+    "icon": "https://render.guildwars2.com/file/ABF6ED0AD392B3279E77D0D9346CFC65EE9C100F/1228224.png",
+    "name": "Daily Tier 2 Underground Facility",
+    "description": "",
+    "requirement": "Complete Underground Facility at fractal scale 26 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 81"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 53"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 43"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 29"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78260,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2950,
+    "icon": "https://render.guildwars2.com/file/339192F5581BB3F771CF359BAB2C90537BD560CB/1228225.png",
+    "name": "Daily Tier 3 Underground Facility",
+    "description": "",
+    "requirement": "Complete Underground Facility at fractal scale 51 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 81"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 53"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78613,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2947,
+    "icon": "https://render.guildwars2.com/file/620E0D3D2DD860700632BA7B3AC10C44CE55FD6C/1424206.png",
+    "name": "Daily Tier 4 Underground Facility",
+    "description": "",
+    "requirement": "Complete Underground Facility at fractal scale 76 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 81"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78572,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2979,
+    "icon": "https://render.guildwars2.com/file/A442B13E7B0D4A2F7136702FA858EA0C9F0CE4B3/1228223.png",
+    "name": "Daily Tier 1 Molten Boss",
+    "description": "",
+    "requirement": "Complete Molten Boss at fractal scale 1 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 10"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 90"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 70"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 40"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78200,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2985,
+    "icon": "https://render.guildwars2.com/file/ABF6ED0AD392B3279E77D0D9346CFC65EE9C100F/1228224.png",
+    "name": "Daily Tier 2 Molten Boss",
+    "description": "",
+    "requirement": "Complete Molten Boss at fractal scale 26 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 90"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 70"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 40"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78260,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2934,
+    "icon": "https://render.guildwars2.com/file/339192F5581BB3F771CF359BAB2C90537BD560CB/1228225.png",
+    "name": "Daily Tier 3 Molten Boss",
+    "description": "",
+    "requirement": "Complete Molten Boss at fractal scale 51 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 90"
+      },
+      {
+        "type": "Text",
+        "text": "Fractal Scale 70"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78613,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2966,
+    "icon": "https://render.guildwars2.com/file/620E0D3D2DD860700632BA7B3AC10C44CE55FD6C/1424206.png",
+    "name": "Daily Tier 4 Molten Boss",
+    "description": "",
+    "requirement": "Complete Molten Boss at fractal scale 76 or higher.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "bits": [
+      {
+        "type": "Text",
+        "text": "Fractal Scale 90"
+      }
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 78572,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 3219,
+    "icon": "https://render.guildwars2.com/file/4A5834E40CDC6A0C44085B1F697565002D71CD47/1228226.png",
+    "name": "Daily Recommended Fractal—Scale 69",
+    "description": "",
+    "requirement": "Complete the fractal dungeon at this difficulty in the Fractals of the Mists through the portal in Lion's Arch.\nRequires the mastery Follows Advice.",
+    "locked_text": "",
+    "type": "Default",
+    "flags": [
+      "Daily"
+    ],
+    "tiers": [
+      {
+        "count": 1,
+        "points": 0
+      }
+    ],
+    "prerequisites": [
+      2248
+    ],
+    "rewards": [
+      {
+        "type": "Item",
+        "id": 79800,
+        "count": 1
+      }
+    ]
+  }
+]
