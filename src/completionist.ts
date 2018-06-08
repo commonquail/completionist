@@ -85,6 +85,8 @@ export function cleanUpDailyNames(
         const a = dailies[index];
         if (fractal.isRecommended(a)) {
             dailies[index] = fractal.fixRecommendedName(a);
+        } else if (fractal.isT4(a)) {
+            dailies[index] = fractal.fixT4Name(a);
         } else if (isDailyActivityParticipation(a)) {
             const today = new Date();
             dailies[index] = fixDailyActivityName(a, today);
