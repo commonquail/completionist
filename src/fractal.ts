@@ -47,6 +47,37 @@ export function fixRecommendedName(achievement: Achievement): Achievement {
     };
 }
 
+export function fixT4Name(achievement: Achievement): Achievement {
+    if (!achievement.bits) {
+        return achievement;
+    }
+
+    const scales = achievement.bits
+        .map((b) => b.text)
+        .filter((t) => t !== undefined)
+        .map((t) => /(\d+)/.exec(t!)!)
+        .map((matches) => parseInt(matches[0], 10))
+        .filter((n) => n > 75)
+        .sort()
+        .join(", ");
+
+    return {
+        bits: achievement.bits,
+        description: achievement.description,
+        flags: achievement.flags,
+        icon: achievement.icon,
+        id: achievement.id,
+        locked_text: achievement.locked_text,
+        name: `${achievement.name} (${scales})`,
+        point_cap: achievement.point_cap,
+        prerequisites: achievement.prerequisites,
+        requirement: achievement.requirement,
+        rewards: achievement.rewards,
+        tiers: achievement.tiers,
+        type: achievement.type,
+    };
+}
+
 function extractScale(fractal: Achievement): number {
     const matches = /\d+/.exec(fractal.name);
     if (matches) {
