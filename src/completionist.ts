@@ -141,7 +141,7 @@ export function seedDailies(
     const div = document.createElement("div");
     let html = "";
     for (const a of achievements) {
-        html += `<div id="daily-${a.id}" data-aid="${a.id}" class="daily-achievement">
+        html += `<div id="daily-${a.id}" data-aid="${a.id}" class="daily-achievement" title="${a.id}">
         <img src="${icon({ icon: undefined })}" alt="${a.id}"/>
         <span>Daily ${a.id}</span>
         </div>`;
@@ -167,6 +167,7 @@ function populateDailies(dailies: ReadonlyArray<gw2.Achievement>): void {
         }
 
         txt.textContent = a.name;
+        e.title = a.requirement;
     }
 }
 
