@@ -12,9 +12,9 @@ test("gw2.id of", macro, 1, 1);
 test("gw2.id of", macro, 2, 2);
 
 const dailyActivity = mkmacro((t, dayOfWeek: string, expected: Activity) => {
-    const activity = activityFor(new Date(dayOfWeek));
+    const activity = activityFor(new Date(dayOfWeek), "en");
 
-    t.is(activity, expected);
+    t.is(activity, expected.en);
 });
 
 test("gw2.activityFor Sunday is Keg Brawl",             dailyActivity, "2018-01-07", Activity.KegBrawl);
@@ -25,3 +25,9 @@ test("gw2.activityFor Thursday is Crab Toss",           dailyActivity, "2018-01-
 test("gw2.activityFor Friday is Sanctum Sprint",        dailyActivity, "2018-01-12", Activity.SanctumSprint);
 test("gw2.activityFor Saturday is Southsun Survival",   dailyActivity, "2018-01-13", Activity.SouthsunSurvival);
 test("gw2.activityFor loops around",                    dailyActivity, "2018-01-14", Activity.KegBrawl);
+
+test("gw2.activityFor respects language", (t) => {
+    const activity = activityFor(new Date("2018-01-07"), "de");
+
+    t.is(activity, Activity.KegBrawl.de);
+});

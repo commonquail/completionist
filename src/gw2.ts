@@ -73,11 +73,46 @@ export function id(v: { readonly id: number }): number {
     return v.id;
 }
 
-export const enum Activity {
-    CrabToss = "Crab Toss",
-    KegBrawl = "Keg Brawl",
-    SanctumSprint = "Sanctum Sprint",
-    SouthsunSurvival = "Southsun Survival",
+export class Activity {
+    public static readonly CrabToss: Activity = {
+        de: "Krebs-Wurfspiel",
+        en: "Crab Toss",
+        es: "Lanzamiento de cangrejos",
+        fr: "Lancer de crabe",
+        zh: null,
+    };
+
+    public static readonly KegBrawl: Activity = {
+        de: "Fasskeilerei",
+        en: "Keg Brawl",
+        es: "Pelea de barricas",
+        fr: "Bagarre de barils",
+        zh: null,
+    };
+
+    public static readonly SanctumSprint: Activity = {
+        de: "Refugiums-Sprint",
+        en: "Sanctum Sprint",
+        es: "Sprint del Sagrario",
+        fr: "Course du Sanctuaire",
+        zh: null,
+    };
+
+    public static readonly SouthsunSurvival: Activity = {
+        de: "Südlicht-Überlebenskampf",
+        en: "Southsun Survival",
+        es: "Supervivencia en el Sol Austral",
+        fr: "Survie à Sud-Soleil",
+        zh: null,
+    };
+
+    public readonly de: string = "";
+    public readonly en: string = "";
+    public readonly es: string = "";
+    public readonly fr: string = "";
+    public readonly zh: null = null;
+
+    private constructor() {}
 }
 
 const activityCycle = [
@@ -90,6 +125,15 @@ const activityCycle = [
     Activity.SouthsunSurvival,
 ];
 
-export function activityFor(date: Date): Activity {
-    return activityCycle[date.getUTCDay()];
+export function activityFor(date: Date, lang: Lang): string | null {
+    return activityCycle[date.getUTCDay()][lang];
+}
+
+export type Lang = "de" | "en" | "es" | "fr" | "zh";
+
+export function langOf(s: string | null): Lang | null {
+    if (s === "en" || s === "de" || s === "fr" || s === "es" || s === "zh") {
+        return s;
+    }
+    return null;
 }

@@ -6,12 +6,14 @@ import * as gw2 from "./gw2";
 
 const baseUri = env.production ? "https://api.guildwars2.com/v2" : "http://localhost:3000/v2";
 
-export function getAchievements(ids: ReadonlyArray<{ readonly id: number }>):
-    AxiosPromise<ReadonlyArray<gw2.Achievement>> {
+export function getAchievements(
+    ids: ReadonlyArray<{ readonly id: number }>,
+    lang: gw2.Lang,
+): AxiosPromise<ReadonlyArray<gw2.Achievement>> {
     return axios.get(baseUri + "/achievements", {
         params: {
             ids: ids.map(gw2.id).join(","),
-            lang: "en",
+            lang,
         },
     });
 }
@@ -21,13 +23,14 @@ export function getFunDailies(dailies: gw2.Daily): void {
 
     markFavorites();
 
+    const lang = gw2.langOf(getQueryLang()) || "en";
     const achievements = dailies.pve.filter(fullyLevelled).concat(
         dailies.wvw,
         dailies.fractals);
 
-    getAchievements(achievements)
+    getAchievements(achievements, lang)
         .then(axiosData)
-        .then(cleanUpDailyNames)
+        .then((data) => cleanUpDailyNames(data, lang))
         .then(populateDailies)
         .then(arrangeFractalDailies)
         .catch(error);
@@ -76,20 +79,27 @@ function axiosData<T>(response: AxiosResponse<T>): T {
     return response.data;
 }
 
+function getQueryLang(): string {
+    const q = window.location.search;
+    const start = q.indexOf("lang=") + 5;
+    return start > -1 ? q.substr(start, 2) : "en";
+}
+
 export function cleanUpDailyNames(
     data: ReadonlyArray<gw2.Achievement>,
+    lang: gw2.Lang,
 ): ReadonlyArray<gw2.Achievement> {
     const dailies = [... data];
 
     for (let index = 0; index < dailies.length; index++) {
         const a = dailies[index];
         if (fractal.isRecommended(a)) {
-            dailies[index] = fractal.fixRecommendedName(a);
+            dailies[index] = fractal.fixRecommendedName(a, lang);
         } else if (fractal.isT4(a)) {
             dailies[index] = fractal.fixT4Name(a);
         } else if (isDailyActivityParticipation(a)) {
             const today = new Date();
-            dailies[index] = fixDailyActivityName(a, today);
+            dailies[index] = fixDailyActivityName(a, today, lang);
         }
     }
 
@@ -105,7 +115,10 @@ export function isDailyActivityParticipation(
 export function fixDailyActivityName(
     a: Readonly<gw2.Achievement>,
     date: Date,
+    lang: gw2.Lang,
 ): gw2.Achievement {
+    const activity = gw2.activityFor(date, lang);
+    const suffix = activity ? ` (${activity})` : "";
     return {
         bits: a.bits,
         description: a.description,
@@ -113,7 +126,7 @@ export function fixDailyActivityName(
         icon: a.icon,
         id: a.id,
         locked_text: a.locked_text,
-        name: `${a.name} (${gw2.activityFor(date)})`,
+        name: `${a.name}${suffix}`,
         point_cap: a.point_cap,
         prerequisites: a.prerequisites,
         requirement: a.requirement,

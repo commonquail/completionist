@@ -55,15 +55,22 @@ test("Achievement with no rewards is not Recommended", (t) => {
 
 test("Fix Daily Recommended Fractal by appending fractal name", (t) => {
     const someRecommendedDailyFractal = helper.achievementWithName("41");
-    const fixed = fractal.fixRecommendedName(someRecommendedDailyFractal);
+    const fixed = fractal.fixRecommendedName(someRecommendedDailyFractal, "en");
 
     t.is(fixed.name, "41 (Twilight Oasis)");
 });
 
 test("Name of Recommended Fractal is inferred from first set of consecutive integers", (t) => {
     const someRecommendedDailyFractal = helper.achievementWithName("foo 42 67 baz");
-    const fixed = fractal.fixRecommendedName(someRecommendedDailyFractal);
+    const fixed = fractal.fixRecommendedName(someRecommendedDailyFractal, "en");
 
     t.regex(fixed.name, /Captain Mai Trin Boss/);
     t.notRegex(fixed.name, /Swampland/);
+});
+
+test("Name of Recommended Fractal respects language", (t) => {
+    const someRecommendedDailyFractal = helper.achievementWithName("41");
+    const fixed = fractal.fixRecommendedName(someRecommendedDailyFractal, "de");
+
+    t.is(fixed.name, "41 (Zwielichtoase)");
 });
