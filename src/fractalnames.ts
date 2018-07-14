@@ -79,6 +79,14 @@ class Fractal {
         zh: null,
     };
 
+    public static readonly SirensReef: Fractal = {
+        de: "Reef der Sirene",
+        en: "Siren's Reef",
+        es: "Arrecife de la Sirena",
+        fr: "Récif de la sirène",
+        zh: null,
+    };
+
     public static readonly Snowblind: Fractal = {
         de: "Schneeblind",
         en: "Snowblind",
@@ -172,7 +180,7 @@ export default {
      9: Fractal.MoltenFurnace,
     10: Fractal.MoltenBoss,
     11: Fractal.Deepstone,
-    12: Fractal.Uncategorized,
+    12: Fractal.SirensReef,
     13: Fractal.ChaosIsles,
     14: Fractal.Aetherblade,
     15: Fractal.ThaumanovaReactor,
@@ -197,7 +205,7 @@ export default {
     34: Fractal.ThaumanovaReactor,
     35: Fractal.SolidOcean,
     36: Fractal.Uncategorized,
-    37: Fractal.Snowblind,
+    37: Fractal.SirensReef,
     38: Fractal.ChaosIsles,
     39: Fractal.MoltenFurnace,
     40: Fractal.MoltenBoss,
@@ -214,7 +222,7 @@ export default {
     51: Fractal.Snowblind,
     52: Fractal.Volcanic,
     53: Fractal.UndergroundFacility,
-    54: Fractal.ChaosIsles,
+    54: Fractal.SirensReef,
     55: Fractal.ThaumanovaReactor,
     56: Fractal.Swampland,
     57: Fractal.UrbanBattleground,
@@ -238,7 +246,7 @@ export default {
     75: Fractal.ShatteredObservatory,
     76: Fractal.AquaticRuins,
     77: Fractal.Swampland,
-    78: Fractal.UrbanBattleground,
+    78: Fractal.SirensReef,
     79: Fractal.Uncategorized,
     80: Fractal.SolidOcean,
     81: Fractal.UndergroundFacility,
