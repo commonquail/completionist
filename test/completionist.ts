@@ -88,7 +88,7 @@ test("icon() returns icon property value for truthy icon property", (t) => {
 });
 
 test("cleanUpDailyNames() returns empty list on empty list input", (t) => {
-    const clean = lib.cleanUpDailyNames([]);
+    const clean = lib.cleanUpDailyNames([], "en");
     t.deepEqual(clean, []);
 });
 
@@ -96,7 +96,7 @@ test("cleanUpDailyNames() leaves names of regular achievements alone", (t) => {
     const someRegularDaily = helper.achievementWithName("42");
     t.is(someRegularDaily.name, "42", "Precondition");
 
-    const clean = lib.cleanUpDailyNames([someRegularDaily]);
+    const clean = lib.cleanUpDailyNames([someRegularDaily], "en");
 
     t.is(clean[0].name, someRegularDaily.name, "Regular achievement should be unchanged");
 });
@@ -109,7 +109,7 @@ test("cleanUpDailyNames() fixes Recommended Fractal names", (t) => {
     const clean = lib.cleanUpDailyNames([
         someRecommendedFractal,
         someRegularDaily,
-    ]);
+    ], "en");
 
     t.regex(clean[0].name, /Snowblind/, "Recommended Fractal name should be cleaned up");
     t.not(clean[1].name, clean[0].name, "Regular achievement should be left alone");
@@ -120,7 +120,7 @@ test("cleanUpDailyNames() fixes Daily Activity names", (t) => {
     const someDailyActivity = helper.achievementWithId(1939);
     t.notRegex(someDailyActivity.name, activityPattern, "Precondition");
 
-    const clean = lib.cleanUpDailyNames([someDailyActivity]);
+    const clean = lib.cleanUpDailyNames([someDailyActivity], "en");
 
     t.regex(clean[0].name, activityPattern, "Daily Activity name should be cleaned up");
 });
@@ -167,7 +167,8 @@ const dailyActivity = mkmacro((t, input: string, expected: RegExp) => {
 
     const activity = lib.fixDailyActivityName(
         helper.achievementWithId(1939),
-        dayOfWeek);
+        dayOfWeek,
+        "en");
 
     t.regex(activity.name, expected);
 });
@@ -180,7 +181,8 @@ test("Daily Activity, Tuesday, is not Keg Brawl", (t) => {
 
     const activity = lib.fixDailyActivityName(
         helper.achievementWithId(1939),
-        someTuesday);
+        someTuesday,
+        "en");
 
     t.notRegex(activity.name, /Keg/);
 });

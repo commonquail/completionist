@@ -1,5 +1,5 @@
 import nameOfScale from "./fractalnames";
-import { Achievement } from "./gw2";
+import { Achievement, Lang } from "./gw2";
 
 // Probably not less robust than scanning localisable texts
 // or maintaining achievement IDs.
@@ -28,8 +28,13 @@ export function isRecommended(achievement: Achievement): boolean {
     return false;
 }
 
-export function fixRecommendedName(achievement: Achievement): Achievement {
+export function fixRecommendedName(
+    achievement: Achievement,
+    lang: Lang,
+): Achievement {
     const scale = extractScale(achievement);
+    const name = nameOfScale[scale][lang];
+    const suffix = name ? ` (${name})` : "";
     return {
         bits: achievement.bits,
         description: achievement.description,
@@ -37,7 +42,7 @@ export function fixRecommendedName(achievement: Achievement): Achievement {
         icon: achievement.icon,
         id: achievement.id,
         locked_text: achievement.locked_text,
-        name: `${achievement.name} (${nameOfScale[scale]})`,
+        name: `${achievement.name}${suffix}`,
         point_cap: achievement.point_cap,
         prerequisites: achievement.prerequisites,
         requirement: achievement.requirement,

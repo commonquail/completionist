@@ -1,23 +1,163 @@
-const enum Fractal {
-    Aetherblade = "Aetherblade",
-    AquaticRuins = "Aquatic Ruins",
-    CaptainMaiTrinBoss = "Captain Mai Trin Boss",
-    ChaosIsles = "Chaos Isles",
-    Cliffside = "Cliffside",
-    Deepstone = "Deepstone",
-    MoltenBoss = "Molten Boss",
-    MoltenFurnace = "Molten Furnace",
-    Nightmare = "Nightmare",
-    ShatteredObservatory = "Shattered Observatory",
-    Snowblind = "Snowblind",
-    SolidOcean = "Solid Ocean",
-    Swampland = "Swampland",
-    ThaumanovaReactor = "Thaumanova Reactor",
-    TwilightOasis = "Twilight Oasis",
-    Uncategorized = "Uncategorized",
-    UndergroundFacility = "Underground Facility",
-    UrbanBattleground = "Urban Battleground",
-    Volcanic = "Volcanic",
+class Fractal {
+    public static readonly Aetherblade: Fractal = {
+        de: "Ätherklinge",
+        en: "Aetherblade",
+        es: "Filoetéreo",
+        fr: "Étherlame",
+        zh: null,
+    };
+
+    public static readonly AquaticRuins: Fractal = {
+        de: "Unterwasserruinen",
+        en: "Aquatic Ruins",
+        es: "Ruinas Acuáticas",
+        fr: "Ruines aquatiques",
+        zh: null,
+    };
+
+    public static readonly CaptainMaiTrinBoss: Fractal = {
+        de: "Kapitän Mai Trin Boss",
+        en: "Captain Mai Trin Boss",
+        es: "Mai Trin",
+        fr: "Boss capitaine Mai Trin",
+        zh: null,
+    };
+
+    public static readonly ChaosIsles: Fractal = {
+        de: "Chaos",
+        en: "Chaos Isles",
+        es: "Caos",
+        fr: "Chaos",
+        zh: null,
+    };
+
+    public static readonly Cliffside: Fractal = {
+        de: "Felswand",
+        en: "Cliffside",
+        es: "Despeñadero",
+        fr: "Flanc de falaise",
+        zh: null,
+    };
+
+    public static readonly Deepstone: Fractal = {
+        de: "Tiefenstein",
+        en: "Deepstone",
+        es: "Rocahonda",
+        fr: "Roche des abysses",
+        zh: null,
+    };
+
+    public static readonly MoltenBoss: Fractal = {
+        de: "Feuriger Boss",
+        en: "Molten Boss",
+        es: "Jefes Fundidos",
+        fr: "Boss de la Fusion",
+        zh: null,
+    };
+
+    public static readonly MoltenFurnace: Fractal = {
+        de: "Feuriger Hochofen",
+        en: "Molten Furnace",
+        es: "Fragua Fundida",
+        fr: "Fournaise de la Fusion",
+        zh: null,
+    };
+
+    public static readonly Nightmare: Fractal = {
+        de: "Albtraum",
+        en: "Nightmare",
+        es: "Pesadilla",
+        fr: "Cauchemars",
+        zh: null,
+    };
+
+    public static readonly ShatteredObservatory: Fractal = {
+        de: "Zerschmettertes Observatorium",
+        en: "Shattered Observatory",
+        es: "Observatorio Asolado",
+        fr: "Observatoire détruit",
+        zh: null,
+    };
+
+    public static readonly Snowblind: Fractal = {
+        de: "Schneeblind",
+        en: "Snowblind",
+        es: "Ceguera de la Nieve",
+        fr: "Aveugleneige",
+        zh: null,
+    };
+
+    public static readonly SolidOcean: Fractal = {
+        de: "Solider Ozean",
+        en: "Solid Ocean",
+        es: "Océano Sólido",
+        fr: "Océan solide",
+        zh: null,
+    };
+
+    public static readonly Swampland: Fractal = {
+        de: "Sumpfland",
+        en: "Swampland",
+        es: "Cenagal",
+        fr: "Marais",
+        zh: null,
+    };
+
+    public static readonly ThaumanovaReactor: Fractal = {
+        de: "Thaumanova-Reaktor",
+        en: "Thaumanova Reactor",
+        es: "Reactor Taumanova",
+        fr: "Réacteur de Thaumanova",
+        zh: null,
+    };
+
+    public static readonly TwilightOasis: Fractal = {
+        de: "Zwielichtoase",
+        en: "Twilight Oasis",
+        es: "Oasis del Crepúsculo",
+        fr: "Oasis du crépuscule",
+        zh: null,
+    };
+
+    public static readonly Uncategorized: Fractal = {
+        de: "Nicht kategorisiert",
+        en: "Uncategorized",
+        es: "Sin Clasificar",
+        fr: "Non classé",
+        zh: null,
+    };
+
+    public static readonly UndergroundFacility: Fractal = {
+        de: "Untergrundeinrichtung",
+        en: "Underground Facility",
+        es: "Instalación Subterránea",
+        fr: "Complexe souterrain",
+        zh: null,
+    };
+
+    public static readonly UrbanBattleground: Fractal = {
+        de: "Urbanes Schlachtfeld",
+        en: "Urban Battleground",
+        es: "Campo de Batalla Urbano",
+        fr: "Champ de bataille urbain",
+        zh: null,
+    };
+
+    public static readonly Volcanic: Fractal = {
+        de: "Vulkanisch",
+        en: "Volcanic",
+        es: "Volcánico",
+        fr: "Volcanique",
+        zh: null,
+    };
+
+    public readonly de: string = "";
+    public readonly en: string = "";
+    public readonly es: string = "";
+    public readonly fr: string = "";
+    public readonly zh: null = null;
+
+    private constructor() {}
 }
 
 export default {
