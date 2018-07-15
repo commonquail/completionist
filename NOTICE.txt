@@ -839,8 +839,6 @@ yarn licenses v1.7.0
 │  │  └─ URL: https://github.com/chalk/chalk.git
 │  ├─ chalk@2.3.2
 │  │  └─ URL: https://github.com/chalk/chalk.git
-│  ├─ chalk@2.4.1
-│  │  └─ URL: https://github.com/chalk/chalk.git
 │  ├─ cheerio@1.0.0-rc.2
 │  │  ├─ URL: git://github.com/cheeriojs/cheerio.git
 │  │  ├─ VendorName: Matt Mueller
@@ -961,14 +959,6 @@ yarn licenses v1.7.0
 │  │  ├─ URL: https://github.com/expressjs/cors.git
 │  │  ├─ VendorName: Troy Goode
 │  │  └─ VendorUrl: https://github.com/troygoode/
-│  ├─ cp-file@5.0.0
-│  │  ├─ URL: https://github.com/sindresorhus/cp-file.git
-│  │  ├─ VendorName: Sindre Sorhus
-│  │  └─ VendorUrl: sindresorhus.com
-│  ├─ cpy@6.0.0
-│  │  ├─ URL: https://github.com/sindresorhus/cpy.git
-│  │  ├─ VendorName: Sindre Sorhus
-│  │  └─ VendorUrl: sindresorhus.com
 │  ├─ create-error-class@3.0.2
 │  │  ├─ URL: https://github.com/floatdrop/create-error-class.git
 │  │  ├─ VendorName: Vsevolod Strukchinsky
@@ -1624,10 +1614,6 @@ yarn licenses v1.7.0
 │  │  ├─ URL: https://github.com/lodash/lodash.git
 │  │  ├─ VendorName: John-David Dalton
 │  │  └─ VendorUrl: https://lodash.com/
-│  ├─ lodash.isobject@3.0.2
-│  │  ├─ URL: https://github.com/lodash/lodash.git
-│  │  ├─ VendorName: John-David Dalton
-│  │  └─ VendorUrl: https://lodash.com/
 │  ├─ lodash.merge@4.6.0
 │  │  ├─ URL: https://github.com/lodash/lodash.git
 │  │  ├─ VendorName: John-David Dalton
@@ -1755,9 +1741,6 @@ yarn licenses v1.7.0
 │  │  └─ VendorName: Andrey Sitnik
 │  ├─ negotiator@0.6.1
 │  │  └─ URL: https://github.com/jshttp/negotiator.git
-│  ├─ nested-error-stacks@2.0.1
-│  │  ├─ URL: https://github.com/mdlavin/nested-error-stacks.git
-│  │  └─ VendorName: Matt Lavin
 │  ├─ normalize-path@2.1.1
 │  │  ├─ URL: https://github.com/jonschlinkert/normalize-path.git
 │  │  ├─ VendorName: Jon Schlinkert
@@ -2103,10 +2086,6 @@ yarn licenses v1.7.0
 │  │  ├─ URL: https://github.com/rollup/rollup-plugin-commonjs.git
 │  │  ├─ VendorName: Rich Harris
 │  │  └─ VendorUrl: https://github.com/rollup/rollup-plugin-commonjs
-│  ├─ rollup-plugin-cpy@1.0.0
-│  │  ├─ URL: git+https://github.com/shrynx/rollup-plugin-cpy.git
-│  │  ├─ VendorName: Shriyans Bhatnagar
-│  │  └─ VendorUrl: https://github.com/shrynx/rollup-plugin-cpy#readme
 │  ├─ rollup-plugin-fill-html@1.1.0
 │  │  ├─ URL: https://github.com/alwaysonlinetxm/rollup-plugin-fill-html.git
 │  │  └─ VendorName: alwaysolinetxm
@@ -2455,4 +2434,4 @@ yarn licenses v1.7.0
       ├─ URL: https://github.com/jsdom/xml-name-validator.git
       ├─ VendorName: Domenic Denicola
       └─ VendorUrl: https://domenic.me/
-Done in 1.10s.
+Done in 1.08s.
