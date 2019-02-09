@@ -36,6 +36,9 @@ body {
   grid-gap: .5rem;
   grid-auto-rows: minmax(200px, auto);
 }
+.hidden {
+  display: none;
+}
 @media (min-width: 48rem) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -59,6 +62,13 @@ footer {
   color: #555;
   font-size: .8rem;
 }
+button {
+  font-size: inherit;
+  margin: 0;
+}
+.error {
+  color: red;
+}
 </style>
     </head>
     <body>
@@ -76,6 +86,12 @@ footer {
               You can click on achievements to highlight them across browser
               sessions. Information is only saved within your browser's
               local storage.
+              <button id="backup-display" class="">Backup</button>
+            </p>
+            <p id="backup-container" class="hidden">
+              <input id="backup">
+              <button id="backup-restore">Restore</button>
+              <span id="backup-error" class="error"></span>
             </p>
             <p>
               <a href="?lang=en">en</a>

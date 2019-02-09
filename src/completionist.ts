@@ -21,7 +21,7 @@ export function getAchievements(
 export function getFunDailies(dailies: gw2.Daily): void {
     seedHtml(dailies);
 
-    markFavorites();
+    forAllFavorites((fa) => fa.forEach(markFavorite));
 
     const lang = gw2.langOf(getQueryLang()) || "en";
     const achievements = dailies.pve.filter(fullyLevelled).concat(
@@ -203,7 +203,9 @@ export function error(err: AxiosError) {
     console.log(err.config);
 }
 
-export function markFavorites(): void {
+export function forAllFavorites(
+    callback: (favoriteAchievements: number[]) => void,
+): void {
     if (!db) {
         return;
     }
@@ -225,8 +227,59 @@ export function markFavorites(): void {
             favoriteAchievements.push(cursor.value.id);
             cursor.continue();
         } else {
+            callback(favoriteAchievements);
+        }
+    };
+}
+
+export function prepareBackup(): void {
+    forAllFavorites((fa) => {
+        const el = document.getElementById("backup") as HTMLInputElement;
+        el.value = JSON.stringify(fa);
+    });
+}
+
+export function assertBackupAsJson(): number[] {
+    try {
+        const el = document.getElementById("backup") as HTMLInputElement;
+        const v = JSON.parse(el.value);
+        return typeof v === "number" ? [v] : v;
+    } catch (e) {
+        console.log(e);
+        const msg = document.getElementById("backup-error") as HTMLElement;
+        msg.textContent = e.message;
+        throw e;
+    }
+}
+
+export function restoreBackup(): void {
+    if (!db) {
+        return;
+    }
+
+    const favoritesStore = db
+        .transaction("favorites", "readwrite")
+        .objectStore("favorites");
+
+    const el = document.getElementById("backup") as HTMLInputElement;
+    const favoriteAchievements = assertBackupAsJson();
+    let i = 0;
+
+    const putNext = () => {
+        if (i < favoriteAchievements.length) {
+            favoritesStore.put({
+                id: favoriteAchievements[i],
+            }).onsuccess = putNext;
+            ++i;
+        } else {
             favoriteAchievements.forEach(markFavorite);
         }
+    };
+
+    const request = favoritesStore.clear();
+    request.onsuccess = putNext;
+    request.onerror = (e) => {
+        console.log(e);
     };
 }
 
@@ -274,8 +327,14 @@ export function toggleFavorite(event: MouseEvent): void {
                 const insert = favoritesStore.put({ id: aid });
                 insert.onsuccess = () => target.classList.add("favorite");
             }
+            prepareBackup();
         };
     }
+}
+
+export function toggleBackupVisibility() {
+    const e = document.getElementById("backup-container") as HTMLElement;
+    e.classList.toggle("hidden");
 }
 
 let db: IDBDatabase | null;
@@ -289,6 +348,7 @@ export function main() {
 
     request.onsuccess = (event) => {
         db = db || (event.target as IdbEventTarget<IDBDatabase>).result;
+        prepareBackup();
     };
 
     request.onupgradeneeded = (event: IDBVersionChangeEvent) => {
@@ -302,4 +362,13 @@ export function main() {
         .then(axiosData)
         .then(getFunDailies)
         .catch(error);
+
+    const backupButton = document.getElementById("backup-display") as HTMLElement;
+    backupButton.addEventListener("click", toggleBackupVisibility);
+
+    const restoreButton = document.getElementById("backup-restore") as HTMLElement;
+    restoreButton.addEventListener("click", () => {
+        restoreBackup();
+        toggleBackupVisibility();
+    });
 }
