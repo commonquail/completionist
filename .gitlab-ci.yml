@@ -1,5 +1,5 @@
 # ex: et sw=2 ts=2:
-image: node:9.3.0
+image: node:10.15.3
 
 before_script:
   - yarn install
