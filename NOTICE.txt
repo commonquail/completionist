@@ -62,10 +62,14 @@ yarn licenses v1.16.0
 │  │  ├─ URL: https://github.com/Microsoft/TypeScript.git
 │  │  ├─ VendorName: Microsoft Corp.
 │  │  └─ VendorUrl: http://typescriptlang.org/
-│  └─ validate-npm-package-license@3.0.4
-│     ├─ URL: https://github.com/kemitchell/validate-npm-package-license.js.git
-│     ├─ VendorName: Kyle E. Mitchell
-│     └─ VendorUrl: https://kemitchell.com
+│  ├─ validate-npm-package-license@3.0.4
+│  │  ├─ URL: https://github.com/kemitchell/validate-npm-package-license.js.git
+│  │  ├─ VendorName: Kyle E. Mitchell
+│  │  └─ VendorUrl: https://kemitchell.com
+│  └─ xml-name-validator@3.0.0
+│     ├─ URL: https://github.com/jsdom/xml-name-validator.git
+│     ├─ VendorName: Domenic Denicola
+│     └─ VendorUrl: https://domenic.me/
 ├─ BSD-2-Clause
 │  ├─ browser-process-hrtime@0.1.3
 │  │  ├─ URL: git://github.com/kumavis/browser-process-hrtime.git
@@ -186,7 +190,11 @@ yarn licenses v1.16.0
 │  │  ├─ URL: git://github.com/salesforce/tough-cookie.git
 │  │  ├─ VendorName: Jeremy Stashewsky
 │  │  └─ VendorUrl: https://github.com/salesforce/tough-cookie
-│  └─ tough-cookie@2.5.0
+│  ├─ tough-cookie@2.5.0
+│  │  ├─ URL: git://github.com/salesforce/tough-cookie.git
+│  │  ├─ VendorName: Jeremy Stashewsky
+│  │  └─ VendorUrl: https://github.com/salesforce/tough-cookie
+│  └─ tough-cookie@3.0.1
 │     ├─ URL: git://github.com/salesforce/tough-cookie.git
 │     ├─ VendorName: Jeremy Stashewsky
 │     └─ VendorUrl: https://github.com/salesforce/tough-cookie
@@ -212,10 +220,6 @@ yarn licenses v1.16.0
 │  │  ├─ URL: git+https://github.com/concordancejs/react.git
 │  │  ├─ VendorName: Mark Wubben
 │  │  └─ VendorUrl: https://github.com/concordancejs/react#readme
-│  ├─ abab@1.0.4
-│  │  ├─ URL: git+https://github.com/jsdom/abab.git
-│  │  ├─ VendorName: Jeff Carpenter
-│  │  └─ VendorUrl: https://github.com/jsdom/abab#readme
 │  ├─ abbrev@1.1.1
 │  │  ├─ URL: http://github.com/isaacs/abbrev-js
 │  │  └─ VendorName: Isaac Z. Schlueter
@@ -415,6 +419,9 @@ yarn licenses v1.16.0
 │  │  ├─ URL: git://github.com/isaacs/sax-js.git
 │  │  ├─ VendorName: Isaac Z. Schlueter
 │  │  └─ VendorUrl: http://blog.izs.me/
+│  ├─ saxes@3.1.11
+│  │  ├─ URL: https://github.com/lddubeau/saxes.git
+│  │  └─ VendorName: Louis-Dominique Dubeau
 │  ├─ semver@5.7.0
 │  │  └─ URL: https://github.com/npm/node-semver
 │  ├─ semver@6.2.0
@@ -655,6 +662,9 @@ yarn licenses v1.16.0
 │  │  ├─ URL: git://github.com/paulmillr/async-each.git
 │  │  ├─ VendorName: Paul Miller
 │  │  └─ VendorUrl: https://github.com/paulmillr/async-each/
+│  ├─ async-limiter@1.0.0
+│  │  ├─ URL: https://github.com/strml/async-limiter.git
+│  │  └─ VendorName: Samuel Reed
 │  ├─ asynckit@0.4.0
 │  │  ├─ URL: git+https://github.com/alexindigo/asynckit.git
 │  │  ├─ VendorName: Alex Indigo
@@ -989,10 +999,6 @@ yarn licenses v1.16.0
 │  ├─ content-disposition@0.5.3
 │  │  ├─ URL: https://github.com/jshttp/content-disposition.git
 │  │  └─ VendorName: Douglas Christopher Wilson
-│  ├─ content-type-parser@1.0.2
-│  │  ├─ URL: https://github.com/jsdom/content-type-parser.git
-│  │  ├─ VendorName: Domenic Denicola
-│  │  └─ VendorUrl: https://domenic.me/
 │  ├─ content-type@1.0.4
 │  │  ├─ URL: https://github.com/jshttp/content-type.git
 │  │  └─ VendorName: Douglas Christopher Wilson
@@ -1042,9 +1048,9 @@ yarn licenses v1.16.0
 │  ├─ cssom@0.3.8
 │  │  ├─ URL: https://github.com/NV/CSSOM.git
 │  │  └─ VendorName: Nikita Vasilyev
-│  ├─ cssstyle@0.2.37
-│  │  ├─ URL: https://github.com/chad3814/CSSStyleDeclaration.git
-│  │  └─ VendorUrl: https://github.com/chad3814/CSSStyleDeclaration
+│  ├─ cssstyle@1.4.0
+│  │  ├─ URL: https://github.com/jsakas/CSSStyleDeclaration.git
+│  │  └─ VendorUrl: https://github.com/jsakas/CSSStyleDeclaration
 │  ├─ currently-unhandled@0.4.1
 │  │  ├─ URL: https://github.com/jamestalmage/currently-unhandled.git
 │  │  ├─ VendorName: James Talmage
@@ -1053,6 +1059,10 @@ yarn licenses v1.16.0
 │  │  ├─ URL: git://github.com/trentm/node-dashdash.git
 │  │  ├─ VendorName: Trent Mick
 │  │  └─ VendorUrl: http://trentm.com
+│  ├─ data-urls@1.1.0
+│  │  ├─ URL: https://github.com/jsdom/data-urls.git
+│  │  ├─ VendorName: Domenic Denicola
+│  │  └─ VendorUrl: https://domenic.me/
 │  ├─ date-time@0.1.1
 │  │  ├─ URL: https://github.com/sindresorhus/date-time.git
 │  │  ├─ VendorName: Sindre Sorhus
@@ -1487,6 +1497,10 @@ yarn licenses v1.16.0
 │  ├─ invariant@2.2.4
 │  │  ├─ URL: https://github.com/zertosh/invariant
 │  │  └─ VendorName: Andres Suarez
+│  ├─ ip-regex@2.1.0
+│  │  ├─ URL: https://github.com/sindresorhus/ip-regex.git
+│  │  ├─ VendorName: Sindre Sorhus
+│  │  └─ VendorUrl: sindresorhus.com
 │  ├─ ipaddr.js@1.9.0
 │  │  ├─ URL: git://github.com/whitequark/ipaddr.js
 │  │  └─ VendorName: whitequark
@@ -1734,8 +1748,8 @@ yarn licenses v1.16.0
 │  ├─ jsbn@0.1.1
 │  │  ├─ URL: https://github.com/andyperlitch/jsbn.git
 │  │  └─ VendorName: Tom Wu
-│  ├─ jsdom@11.5.1
-│  │  └─ URL: https://github.com/tmpvar/jsdom.git
+│  ├─ jsdom@15.1.1
+│  │  └─ URL: https://github.com/jsdom/jsdom.git
 │  ├─ jsesc@0.5.0
 │  │  ├─ URL: https://github.com/mathiasbynens/jsesc.git
 │  │  ├─ VendorName: Mathias Bynens
@@ -2038,10 +2052,10 @@ yarn licenses v1.16.0
 │  │  ├─ URL: https://github.com/sindresorhus/number-is-nan.git
 │  │  ├─ VendorName: Sindre Sorhus
 │  │  └─ VendorUrl: sindresorhus.com
-│  ├─ nwmatcher@1.4.4
-│  │  ├─ URL: git://github.com/dperini/nwmatcher.git
+│  ├─ nwsapi@2.1.4
+│  │  ├─ URL: git://github.com/dperini/nwsapi.git
 │  │  ├─ VendorName: Diego Perini
-│  │  └─ VendorUrl: http://javascript.nwbox.com/NWMatcher/
+│  │  └─ VendorUrl: http://javascript.nwbox.com/nwsapi/
 │  ├─ object-assign@4.1.1
 │  │  ├─ URL: https://github.com/sindresorhus/object-assign.git
 │  │  ├─ VendorName: Sindre Sorhus
@@ -2156,6 +2170,10 @@ yarn licenses v1.16.0
 │  │  ├─ VendorName: Brian Woodward
 │  │  └─ VendorUrl: https://github.com/doowb/parse-passwd
 │  ├─ parse5@3.0.3
+│  │  ├─ URL: git://github.com/inikulin/parse5.git
+│  │  ├─ VendorName: Ivan Nikulin
+│  │  └─ VendorUrl: https://github.com/inikulin/parse5
+│  ├─ parse5@5.1.0
 │  │  ├─ URL: git://github.com/inikulin/parse5.git
 │  │  ├─ VendorName: Ivan Nikulin
 │  │  └─ VendorUrl: https://github.com/inikulin/parse5
@@ -2789,11 +2807,20 @@ yarn licenses v1.16.0
 │  ├─ vlq@0.2.3
 │  │  ├─ URL: https://github.com/Rich-Harris/vlq
 │  │  └─ VendorName: Rich Harris
+│  ├─ w3c-hr-time@1.0.1
+│  │  ├─ URL: https://github.com/jsdom/w3c-hr-time
+│  │  └─ VendorName: Timothy Gu
+│  ├─ w3c-xmlserializer@1.1.2
+│  │  └─ URL: https://github.com/jsdom/w3c-xmlserializer.git
 │  ├─ whatwg-encoding@1.0.5
 │  │  ├─ URL: https://github.com/jsdom/whatwg-encoding.git
 │  │  ├─ VendorName: Domenic Denicola
 │  │  └─ VendorUrl: https://domenic.me/
-│  ├─ whatwg-url@6.5.0
+│  ├─ whatwg-mimetype@2.3.0
+│  │  ├─ URL: https://github.com/jsdom/whatwg-mimetype.git
+│  │  ├─ VendorName: Domenic Denicola
+│  │  └─ VendorUrl: https://domenic.me/
+│  ├─ whatwg-url@7.0.0
 │  │  ├─ URL: https://github.com/jsdom/whatwg-url.git
 │  │  └─ VendorName: Sebastian Mayr
 │  ├─ widest-line@2.0.1
@@ -2816,10 +2843,17 @@ yarn licenses v1.16.0
 │  │  ├─ URL: https://github.com/sindresorhus/write-pkg.git
 │  │  ├─ VendorName: Sindre Sorhus
 │  │  └─ VendorUrl: sindresorhus.com
+│  ├─ ws@7.1.0
+│  │  ├─ URL: https://github.com/websockets/ws.git
+│  │  ├─ VendorName: Einar Otto Stangvik
+│  │  └─ VendorUrl: https://github.com/websockets/ws
 │  ├─ xdg-basedir@3.0.0
 │  │  ├─ URL: https://github.com/sindresorhus/xdg-basedir.git
 │  │  ├─ VendorName: Sindre Sorhus
 │  │  └─ VendorUrl: sindresorhus.com
+│  ├─ xmlchars@2.1.1
+│  │  ├─ URL: https://github.com/lddubeau/xmlchars.git
+│  │  └─ VendorName: Louis-Dominique Dubeau
 │  ├─ xtend@4.0.2
 │  │  ├─ URL: git://github.com/Raynos/xtend.git
 │  │  ├─ VendorName: Raynos
@@ -2831,17 +2865,14 @@ yarn licenses v1.16.0
 │     ├─ URL: https://github.com/sindresorhus/yn.git
 │     ├─ VendorName: Sindre Sorhus
 │     └─ VendorUrl: sindresorhus.com
-├─ Unlicense
-│  └─ tweetnacl@0.14.5
-│     ├─ URL: https://github.com/dchest/tweetnacl-js.git
-│     ├─ VendorName: TweetNaCl-js contributors
-│     └─ VendorUrl: https://tweetnacl.js.org/
-└─ WTFPL
-   ├─ left-pad@1.3.0
-   │  ├─ URL: git@github.com:stevemao/left-pad.git
-   │  └─ VendorName: azer
-   └─ xml-name-validator@2.0.1
-      ├─ URL: https://github.com/jsdom/xml-name-validator.git
-      ├─ VendorName: Domenic Denicola
-      └─ VendorUrl: https://domenic.me/
-Done in 2.36s.
+├─ SEE LICENSE IN LICENSE.md
+│  └─ abab@2.0.0
+│     ├─ URL: git+https://github.com/jsdom/abab.git
+│     ├─ VendorName: Jeff Carpenter
+│     └─ VendorUrl: https://github.com/jsdom/abab#readme
+└─ Unlicense
+   └─ tweetnacl@0.14.5
+      ├─ URL: https://github.com/dchest/tweetnacl-js.git
+      ├─ VendorName: TweetNaCl-js contributors
+      └─ VendorUrl: https://tweetnacl.js.org/
+Done in 2.70s.
