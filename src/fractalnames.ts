@@ -80,7 +80,7 @@ class Fractal {
     };
 
     public static readonly SirensReef: Fractal = {
-        de: "Reef der Sirene",
+        de: "Riff der Sirene",
         en: "Siren's Reef",
         es: "Arrecife de la Sirena",
         fr: "Récif de la sirène",
