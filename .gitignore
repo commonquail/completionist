@@ -1,4 +1,11 @@
 .rpt2_cache/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 build/
 node_modules/
 public/
+yarn-error.log

@@ -1,4 +1,0 @@
-#!/bin/sh
-yarn --no-progress --ignore-platform licenses list > NOTICE.txt
-yarn --no-progress --silent licenses generate-disclaimer > third-party.txt
-awk -F: '/License/ {print $2}' NOTICE.txt | sort | uniq -c | sort -rn

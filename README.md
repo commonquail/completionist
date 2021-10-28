@@ -48,13 +48,9 @@ by `./update-licenses` to regenerate license information.
 ## License
 
 Original source code is licensed under Apache-2.0 according to `LICENSE.txt`.
-It includes third party software licensed according to `NOTICE.txt` and
-`third-party.txt`, both of which are generated automatically with
-`update-licenses`. This is not strictly in line with ASF's guidelines for
-application [[license], [notice]] but this approach both greatly eases the
-burden of maintenance and avoids the recursive license duplication that would
-occur if software derived from this distribution were to generate license
-information in the same way.
+It includes third party software under various licenses not detailed anywhere,
+not at all in line with ASF's guidelines for application [[license], [notice]],
+but this is hard problem with only bad solutions.
 
 The `samples/` directory is © 2015 ArenaNet, LLC. All rights reserved.
 
