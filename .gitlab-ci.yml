@@ -1,5 +1,5 @@
 # ex: et sw=2 ts=2:
-image: node:16.3.0-alpine
+image: node:16.3.0
 
 before_script:
   - yarn install
