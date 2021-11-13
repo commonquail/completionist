@@ -1,9 +1,7 @@
 # ex: et sw=2 ts=2:
-image: node:10.15.3
+image: node:16.3.0-alpine
 
 before_script:
-  # yarnpkg/yarn#5666, fixed in v1.17.3
-  - rm NOTICE.txt
   - yarn install
 
 test:
@@ -11,8 +9,6 @@ test:
   script:
     - yarn tslint
     - yarn test
-      # Ensure license information reflects latest lock file
-    - test "$(git log -1 --format=%ct -- NOTICE.txt)" -ge "$(git log -1 --format=%ct -- yarn.lock)" 
 
 pages:
   stage: deploy
